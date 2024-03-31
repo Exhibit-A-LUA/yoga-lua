@@ -1,0 +1,272 @@
+  
+// from DB Daddy https://dbdaddy.dev/app/db-view/03031e0c-682f-4875-93c7-ed03e6a11329
+// stores all addresses employee, student, company
+Table address {
+    address_id int [not null]
+    line1 varchar
+    line2 varchar
+    city varchar
+    country varchar
+    postCode varchar
+}
+
+// stores the employees information
+Table employee {
+    employee_id int
+    name varchar
+    sex sex_enum
+    photo varchar 
+    phone varchar
+    roles role_enum 
+    address_id int [ref: > address.address_id]
+}
+
+// stores the employees information
+Table company {
+    company_id int
+    name varchar
+    photo varchar 
+    phone varchar
+    address_id int [ref: > address.address_id]
+}
+
+// stores the student general information 
+// accessible by the student
+Table student {
+    student_id int
+    name varchar
+    sex sex_enum
+    photo varchar
+    phone varchar
+    birthDate timestamp
+    occupation varchar
+    address_id int [ref: > address.address_id]
+    emergencyContactName varchar
+    emergencyContactPhone varchar
+    foundOutAboutUs varchar
+    trainer int [ref: > employee.employee_id]
+}
+
+// stores marketting information about the student
+// should be 1:1 relation with student
+Table student_survey {
+    student_id int [ref: - student.student_id]
+    howYouHeard varchar
+    mailingList boolean
+    priorYogaExperience varchar
+    reasonsYouJoined reasonsYouJoined_enum
+    otherReaons varchar
+}
+
+// stores internal information about the student's goals
+// should be 1:n relation with student
+Table student_goals {
+    goal_id int
+    student_id int [ref: < student.student_id]
+    goalSetDate timestamp
+    goalAchievedDate timestamp
+    goalDescription varchar
+}
+
+// stores internal notes about the student
+// should be 1:n relation with student
+Table student_notes {
+    note_id int
+    student_id int [ref: < student.student_id]
+    noteDate timestamp
+    noteDescription varchar
+}
+
+// stores internal information about the student health conditions
+// should be 1:1 relation with student
+Table student_health {
+    student_id int [ref: - student.student_id]
+    startWeightKg decimal
+    height decimal
+    goodHealth boolean
+    regularExercise boolean
+    execrciseType varchar
+    pregnant boolean
+    diabetes boolean
+    lowBloodSugar boolean
+    hyperThyroidism boolean
+    hypoThyroidism boolean
+    highBloodPressure boolean
+    lowBloodPressure boolean
+    heartDisease boolean
+    varicoseVeins boolean
+    circulationProblems boolean
+    arthritis boolean
+    osteoporosis boolean
+    fibromyalgia boolean
+    busitis boolean
+    gout boolean
+    backOrNeckPain boolean
+    scoliosis boolean
+    footArmHandProblems boolean
+    asthma boolean
+    emphyesema boolean
+    lossOfSensationNervePain boolean
+    eyeProblems boolean
+    anxiety boolean
+    chronicFatigue boolean
+    hernia boolean
+    spondylosis boolean
+    depression boolean
+    recentSurgery boolean
+    jointConditions varchar
+    medications varchar
+    priorHealthIssues varchar
+    currentHealthIssues varchar
+    otherHealthInfo varchar
+    bloodPressureSystolic decimal
+    bloodPressureDiastolic decimal
+    pulseRate decimal
+}
+
+// stores internal information about the student
+// should be 1:1 relation with student
+Table student_admin {
+    student_id int [ref: - student.student_id]
+    comments varchar
+    colour int
+    classType classType_enum
+    currentSessionStart timestamp
+    classesInstructorMissed int
+    classPackage_id int [ref: > classPackage.classPackage_id]
+    schedule weekday
+}
+
+// stores the possible class packages and 
+// their fees in different currencies
+Table classPackage {
+    classPackage_id int
+    numClasses int
+    priceINR decimal
+    priceInPersonINR decimal
+    priceUSD decimal
+    priceEUR decimal
+    priceAUD decimal
+    priceGBP decimal
+    priceCAD decimal
+    priceJPY decimal
+    priceCNH decimal
+    priceCHF decimal
+}
+
+// stores the general appointment information
+Table appointments {
+    appointment_id int
+    startTime timestamp
+    endTime timestamp
+    online boolean
+    inPersonLocation location_enum
+    appointmentStatus status_enum
+    paymentStatus boolean
+    paymentDate timestamp
+    trainer int [ref: > employee.employee_id]
+    slot int
+    appointmentType appointmentType_enum
+}
+
+Table appointmentStudent {
+    appointment_id int [ref: - appointments.appointment_id]
+    student_id int [ref: > student.student_id]
+    paymentType paymentType_enum
+    international boolean
+}
+
+Table appointmentCoorporate {
+    appointment_id int [ref: - appointments.appointment_id]
+    company_id int [ref: > company.company_id]
+    paymentType paymentType_enum
+}
+
+Table appointmentPersonal {
+    appointment_id int [ref: - appointments.appointment_id]
+    description varchar
+}
+
+Enum location_enum {
+    "YogaNisha"
+    "Student Home"
+    "Trainer Home"
+}
+
+Enum paymentType_enum {
+    paid
+    charity
+}
+
+Enum status_enum {
+    "Completed"
+    "Student Cancelled"
+    "Did Not Turn Up"
+    "Trainer Cancelled"
+}
+
+Enum appointmentType_enum {
+    Student
+    Coorperate
+    Personal
+}
+
+
+// enum for the roles in the company
+Enum role_enum {
+    Owner
+    Trainer
+    Clerical
+}
+
+// enum for days of the week 
+// used to select class days - may be multiple
+Enum weekday {
+    Mon
+    Tue
+    Wed
+    Thu
+    Fri
+    Sat
+    Sun
+}
+
+// enum for gender of the person
+// will only be one
+Enum sex_enum {
+    male
+    female
+    other
+}
+
+Enum classType_enum {
+    online
+    inPerson
+}
+
+// enum for reasons to do yoga therapy
+// can be multiple selections
+Enum reasonsYouJoined_enum {
+    "Reduce Stress"
+    "Flexibility"
+    "Build Strength"
+    "Lose Weight"
+    "Balance"
+    "General Wellbeing"
+    "Toning Muscles"
+    "Learn Advance Poses"
+    "Sleep Issues"
+    "Emotional Strength"
+}
+
+
+
+
+
+
+
+
+
+
+
+
