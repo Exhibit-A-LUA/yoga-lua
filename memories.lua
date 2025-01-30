@@ -1,9 +1,9 @@
-addMemory{month=10,date=4,img="Oct 4.png",msg="Oct 4th 2008 we meet for the first time"}
-addMemory{month=10,date=6,img="Oct 6.png",msg="Oct 6th 2008 our first picture together"}
-addMemory{month=10,date=7,img="Oct 7.png",msg="Oct 7th 2008 our home in Wildernest"}
-addMemory{month=10,date=8,img="Oct 8.png",msg="Oct 8th 2008 our bed in Wildernest"}
-addMemory{month=10,date=10,img="Oct 10.png",msg="Oct 10th 2008 US in Goa"}
-addMemory{month=10,date=11,img="Oct 11.png",msg="Oct 11th 2008 our ring"}
+addMemory{month=10,date=4,img="Oct 4.jpg",msg="Oct 4th 2008 we meet for the first time"}
+addMemory{month=10,date=6,img="Oct 6.jpg",msg="Oct 6th 2008 our first picture together"}
+addMemory{month=10,date=7,img="Oct 7.jpg",msg="Oct 7th 2008 our home in Wildernest"}
+addMemory{month=10,date=8,img="Oct 8.jpg",msg="Oct 8th 2008 our bed in Wildernest"}
+addMemory{month=10,date=10,img="Oct 10.jpg",msg="Oct 10th 2008 US in Goa"}
+addMemory{month=10,date=11,img="Oct 11.jpg",msg="Oct 11th 2008 our ring"}
 addMemory{month=2,date=0,img="ME004.bmp",msg="Feb 2000 cover boy!"}
 addMemory{month=12,date=0,img="ME006.jpg",msg="Dec 2007 Exhibit A is born"}
 addMemory{month=12,date=0,img="U001.jpg",msg="Dec 2007 I meet Taara28 for the first time"}
@@ -17,7 +17,7 @@ addMemory{month=0,date=0,img="ME013.jpg",msg="In love or terrified"}
 addMemory{month=0,date=0,img="T001.jpg",msg="Dobby T-Shirt"}
 addMemory{month=0,date=0,img="U006.jpg",msg="I love that look!"}
 addMemory{month=0,date=0,img="U007.jpg",msg="A kiss from my love!"}
-addMemory{month=0,date=0,img="US012.png",msg="Our Ring!"}
+addMemory{month=0,date=0,img="US012.jpg",msg="Our Ring!"}
 addMemory{month=0,date=0,img="US013.jpg",msg="Our Rings!"}
 addMemory{month=12,date=25,img="Card01.jpg",msg="Merry Christmas!"}
 addMemory{month=12,date=25,img="Merry Christmas.jpg",msg="Merry Christmas!"}
@@ -189,7 +189,7 @@ addMemory{month=8,date=16,img="20140816_115935.jpg",msg="August 16th 2014 Derek"
 addMemory{month=10,date=23,img="20141023_022256.jpg",msg="October 23rd 2014 Usssss"}
 addMemory{month=5,date=21,img="four_shades_of_grey__lamakaan_-_21may2014_20140521_1641463881.jpg",msg="May 21st 2014 My Beautiful Nish"}
 addMemory{month=11,date=17,img="IMG-20131117-WA0000.jpg",msg="November 17th 2013 Pooja"}
-addMemory{month=10,date=27,img="2014-10-27 01.08.08.png",msg="October 27th 2014 Family"}
+addMemory{month=10,date=27,img="2014-10-27 01.08.08.jpg",msg="October 27th 2014 Family"}
 addMemory{month=10,date=10,img="20141010_144412.jpg",msg="October 10th 2014 My Nish"}
 addMemory{month=11,date=26,img="20141126_191706.jpg",msg="November 26th 2014 Family"}
 addMemory{month=1,date=3,img="20150103_224048.jpg",msg="January 3rd 2015 MBN"}
@@ -317,7 +317,7 @@ addMemory{month=5,date=24,img="20150524_221912.jpg",msg="May 24th 2015 - Max!"}
 addMemory{month=5,date=3,img="IMG-20150503-WA0007.jpg",msg="May 3rd 2015 - Rayo & Shipla"}
 addMemory{month=5,date=13,img="20150513_130147.jpg",msg="May 13th 2015 - Max Arrived!"}
 addMemory{month=5,date=19,img="20150519_171723.jpg",msg="May 19th 2015 - Max"}
-addMemory{month=5,date=31,img="IMG-20150531-WA0031.jpeg",msg="May 31st 2015 - Max"}
+addMemory{month=5,date=31,img="IMG-20150531-WA0031.jpg",msg="May 31st 2015 - Max"}
 addMemory{month=5,date=31,img="IMG-20150531-WA0028.jpg",msg="May 31st 2015 - Max"}
 addMemory{month=8,date=14,img="20150808_154058.jpg",msg="August 14th 2015 - Girls Birthday!"}
 addMemory{month=8,date=22,img="20150822_113315.jpg",msg="August 22nd 2015 - Mauritius!"}
@@ -326,7 +326,7 @@ addMemory{month=8,date=12,img="2015-08-12 21.20.13.jpg",msg="August 12th 2015 - 
 addMemory{month=8,date=5,img="20150805_214247.jpg",msg="August 5th 2015 - Yuki & Max"}
 addMemory{month=8,date=6,img="DSC_0310.jpg",msg="August 6th 2015 - Yuki & Max"}
 addMemory{month=8,date=6,img="DSC_0315.jpg",msg="August 6th 2015 - Yuki & Max"}
-addMemory{month=8,date=30,img="IMG-20150830-WA0013.jpeg",msg="August 30th 2015 - Yuki!"}
+addMemory{month=8,date=30,img="IMG-20150830-WA0013.jpg",msg="August 30th 2015 - Yuki!"}
 addMemory{month=1,date=2,img="20160102_002458.jpg",msg="January 2nd 2016 - Fun with the girls!"}
 addMemory{month=1,date=1,img="20160101_000510.jpg",msg="January 1st 2016 - New Years!"}
 addMemory{month=1,date=14,img="20160114_145827.jpg",msg="January 14th 2016 - This Idiot!"}

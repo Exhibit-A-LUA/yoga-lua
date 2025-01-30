@@ -70,10 +70,13 @@ end
 local _dx = 0
 local _dy = 0
 -- to display current time
-local currentHour = 0
-local currentMinute = 0
-local currentMonth = 0
-local currentDate = 0
+local currentTime = {
+    hour = 0,
+    minute = 0,
+    month = 0,
+    date = 0,
+    year = 0
+}
 
 -- for scrolling text
 local scrolling = true
@@ -137,7 +140,7 @@ local addingNewStudent = false
 -- constants for displaying the active week and its classes
 local classBoxWidth = 120
 -- Think about alowing user to set classBoxHeight DEFINITELY
-local defaultClassBoxHeight = 36
+local defaultClassBoxHeight = 31 --was 36
 local classBoxHeight = defaultClassBoxHeight
 local daySummaryBoxHeight = 40
 local classBoxPadY = 2
@@ -149,7 +152,7 @@ local startY = 90 -- y position of week display -- or maybe not
 local graphX = 200 -- all time takings graph x position
 local defaultStartHour = 4
 local startHour = defaultStartHour
-local defaultNumEvents = 19
+local defaultNumEvents = 21 -- was 19
 local numEvents = defaultNumEvents
 local dayY = startY - 55 -- 50
 local rectCorner = 6 -- how round the corners of the class box is
@@ -344,20 +347,174 @@ local statusBlobStudentCancelLateColour = {1,.6,0,1}
 local statusBlobNishCancelColour = {0,0,.7,1}
 local statusBlobTrialClassColour = {1,1,1,1} -- ? don't think we need this
 
-local blue = {0,0,1,1}
-local red = {1,0,0,1}
-local green = {0,1,0,1}
-local darkGreen = {0,.5,0,1}
-local yellow = {1,1,0,1}
-local purple = {1,.5,1,1}
-local paleYellow = {1,1,.8,1}
-local lightBlue = {.5,1,1,1}
-local vLightBlue = {.8,1,1,1}
-local white = {1,1,1,1}
-local black = {0,0,0,1}
-local grey = {.6,.6,.6,1}
+local colour = {
+    aliceblue = {0.94117647058824, 0.97254901960784, 1},
+    antiquewhite = {0.98039215686275, 0.92156862745098, 0.84313725490196},
+    aqua = {0, 1, 1},
+    aquamarine = {0.49803921568627, 1, 0.83137254901961},
+    azure = {0.94117647058824, 1, 1},
+    beige = {0.96078431372549, 0.96078431372549, 0.86274509803922},
+    bisque = {1, 0.89411764705882, 0.76862745098039},
+    black = {0,0,0,1},
+    blanchedalmond = {1, 0.92156862745098, 0.80392156862745},
+    blue = {0,0,1,1},
+    blueviolet = {0.54117647058824, 0.16862745098039, 0.88627450980392},
+    brown = {0.64705882352941, 0.16470588235294, 0.16470588235294},
+    burlywood = {0.87058823529412, 0.72156862745098, 0.52941176470588},
+    cadetblue = {0.37254901960784, 0.61960784313725, 0.62745098039216},
+    chartreuse = {0.49803921568627, 1, 0},
+    chocolate = {0.82352941176471, 0.41176470588235, 0.11764705882353},
+    coral = {1, 0.49803921568627, 0.31372549019608},
+    cornflowerblue = {0.3921568627451, 0.5843137254902, 0.92941176470588},
+    cornsilk = {1, 0.97254901960784, 0.86274509803922},
+    crimson = {0.86274509803922, 0.07843137254902, 0.23529411764706},
+    cyan = {0, 1, 1},
+    darkblue = {0, 0, 0.54509803921569},
+    darkcyan = {0, 0.54509803921569, 0.54509803921569},
+    darkgoldenrod = {0.72156862745098, 0.52549019607843, 0.043137254901961},
+    darkgray = {0.66274509803922, 0.66274509803922, 0.66274509803922},
+    darkGreen = {0, 0.3921568627451, 0},
+    darkgrey = {0.66274509803922, 0.66274509803922, 0.66274509803922},
+    darkkhaki = {0.74117647058824, 0.71764705882353, 0.41960784313725},
+    darkmagenta = {0.54509803921569, 0, 0.54509803921569},
+    darkolivegreen = {0.33333333333333, 0.41960784313725, 0.1843137254902},
+    darkorange = {1, 0.54901960784314, 0},
+    darkorchid = {0.6, 0.19607843137255, 0.8},
+    darkred = {0.54509803921569, 0, 0},
+    darksalmon = {0.91372549019608, 0.58823529411765, 0.47843137254902},
+    darkseagreen = {0.56078431372549, 0.73725490196078, 0.56078431372549},
+    darkslateblue = {0.28235294117647, 0.23921568627451, 0.54509803921569},
+    darkslategray = {0.1843137254902, 0.30980392156863, 0.30980392156863},
+    darkslategrey = {0.1843137254902, 0.30980392156863, 0.30980392156863},
+    darkturquoise = {0, 0.8078431372549, 0.81960784313725},
+    darkviolet = {0.58039215686275, 0, 0.82745098039216},
+    deeppink = {1, 0.07843137254902, 0.57647058823529},
+    deepskyblue = {0, 0.74901960784314, 1},
+    dimgray = {0.41176470588235, 0.41176470588235, 0.41176470588235},
+    dimgrey = {0.41176470588235, 0.41176470588235, 0.41176470588235},
+    dodgerblue = {0.11764705882353, 0.56470588235294, 1},
+    firebrick = {0.69803921568627, 0.13333333333333, 0.13333333333333},
+    floralwhite = {1, 0.98039215686275, 0.94117647058824},
+    forestgreen = {0.13333333333333, 0.54509803921569, 0.13333333333333},
+    fuchsia = {1, 0, 1},
+    gainsboro = {0.86274509803922, 0.86274509803922, 0.86274509803922},
+    ghostwhite = {0.97254901960784, 0.97254901960784, 1},
+    gold = {1, 0.84313725490196, 0},
+    goldenrod = {0.85490196078431, 0.64705882352941, 0.12549019607843},
+    grey = {0.50196078431373, 0.50196078431373, 0.50196078431373},
+    green = {0, 0.50196078431373, 0},
+    greenyellow = {0.67843137254902, 1, 0.1843137254902},
+    grey = {0.50196078431373, 0.50196078431373, 0.50196078431373},
+    honeydew = {0.94117647058824, 1, 0.94117647058824},
+    hotpink = {1, 0.41176470588235, 0.70588235294118},
+    indianred = {0.80392156862745, 0.36078431372549, 0.36078431372549},
+    indigo = {0.29411764705882, 0, 0.50980392156863},
+    ivory = {1, 1, 0.94117647058824},
+    khaki = {0.94117647058824, 0.90196078431373, 0.54901960784314},
+    lavender = {0.90196078431373, 0.90196078431373, 0.98039215686275},
+    lavenderblush = {1, 0.94117647058824, 0.96078431372549},
+    lawngreen = {0.48627450980392, 0.98823529411765, 0},
+    lemonchiffon = {1, 0.98039215686275, 0.80392156862745},
+    lightBlue = {0.67843137254902, 0.84705882352941, 0.90196078431373},
+    lightcoral = {0.94117647058824, 0.50196078431373, 0.50196078431373},
+    lightcyan = {0.87843137254902, 1, 1},
+    lightgoldenrodyellow = {0.98039215686275, 0.98039215686275, 0.82352941176471},
+    lightgray = {0.82745098039216, 0.82745098039216, 0.82745098039216},
+    lightgreen = {0.56470588235294, 0.93333333333333, 0.56470588235294},
+    lightgrey = {0.82745098039216, 0.82745098039216, 0.82745098039216},
+    lightpink = {1, 0.71372549019608, 0.75686274509804},
+    lightsalmon = {1, 0.62745098039216, 0.47843137254902},
+    lightseagreen = {0.12549019607843, 0.69803921568627, 0.66666666666667},
+    lightskyblue = {0.52941176470588, 0.8078431372549, 0.98039215686275},
+    lightslategray = {0.46666666666667, 0.53333333333333, 0.6},
+    lightslategrey = {0.46666666666667, 0.53333333333333, 0.6},
+    lightsteelblue = {0.69019607843137, 0.76862745098039, 0.87058823529412},
+    lightyellow = {1, 1, 0.87843137254902},
+    lime = {0, 1, 0},
+    limegreen = {0.19607843137255, 0.80392156862745, 0.19607843137255},
+    linen = {0.98039215686275, 0.94117647058824, 0.90196078431373},
+    magenta = {1, 0, 1},
+    maroon = {0.50196078431373, 0, 0},
+    mediumaquamarine = {0.4, 0.80392156862745, 0.66666666666667},
+    mediumblue = {0, 0, 0.80392156862745},
+    mediumorchid = {0.72941176470588, 0.33333333333333, 0.82745098039216},
+    mediumpurple = {0.57647058823529, 0.43921568627451, 0.85882352941176},
+    mediumseagreen = {0.23529411764706, 0.70196078431373, 0.44313725490196},
+    mediumslateblue = {0.48235294117647, 0.4078431372549, 0.93333333333333},
+    mediumspringgreen = {0, 0.98039215686275, 0.60392156862745},
+    mediumturquoise = {0.28235294117647, 0.81960784313725, 0.8},
+    mediumvioletred = {0.78039215686275, 0.082352941176471, 0.52156862745098},
+    midnightblue = {0.098039215686275, 0.098039215686275, 0.43921568627451},
+    mintcream = {0.96078431372549, 1, 0.98039215686275},
+    mistyrose = {1, 0.89411764705882, 0.88235294117647},
+    moccasin = {1, 0.89411764705882, 0.70980392156863},
+    navajowhite = {1, 0.87058823529412, 0.67843137254902},
+    navy = {0, 0, 0.50196078431373},
+    oldlace = {0.9921568627451, 0.96078431372549, 0.90196078431373},
+    olive = {0.50196078431373, 0.50196078431373, 0},
+    olivedrab = {0.41960784313725, 0.55686274509804, 0.13725490196078},
+    orange = {1, 0.64705882352941, 0},
+    orangered = {1, 0.27058823529412, 0},
+    orchid = {0.85490196078431, 0.43921568627451, 0.83921568627451},
+    palegoldenrod = {0.93333333333333, 0.90980392156863, 0.66666666666667},
+    palegreen = {0.59607843137255, 0.9843137254902, 0.59607843137255},
+    paleturquoise = {0.68627450980392, 0.93333333333333, 0.93333333333333},
+    palevioletred = {0.85882352941176, 0.43921568627451, 0.57647058823529},
+    paleYellow = {1,1,.8,1},
+    papayawhip = {1, 0.93725490196078, 0.83529411764706},
+    peachpuff = {1, 0.85490196078431, 0.72549019607843},
+    peru = {0.80392156862745, 0.52156862745098, 0.24705882352941},
+    pink = {1, 0.75294117647059, 0.79607843137255},
+    plum = {0.86666666666667, 0.62745098039216, 0.86666666666667},
+    powderblue = {0.69019607843137, 0.87843137254902, 0.90196078431373},
+    purple = {0.50196078431373, 0, 0.50196078431373},
+    red = {1, 0, 0},
+    rosybrown = {0.73725490196078, 0.56078431372549, 0.56078431372549},
+    royalblue = {0.25490196078431, 0.41176470588235, 0.88235294117647},
+    saddlebrown = {0.54509803921569, 0.27058823529412, 0.074509803921569},
+    salmon = {0.98039215686275, 0.50196078431373, 0.44705882352941},
+    sandybrown = {0.95686274509804, 0.64313725490196, 0.37647058823529},
+    seagreen = {0.18039215686275, 0.54509803921569, 0.34117647058824},
+    seashell = {1, 0.96078431372549, 0.93333333333333},
+    sienna = {0.62745098039216, 0.32156862745098, 0.17647058823529},
+    silver = {0.75294117647059, 0.75294117647059, 0.75294117647059},
+    skyblue = {0.52941176470588, 0.8078431372549, 0.92156862745098},
+    slateblue = {0.4156862745098, 0.35294117647059, 0.80392156862745},
+    slategray = {0.43921568627451, 0.50196078431373, 0.56470588235294},
+    slategrey = {0.43921568627451, 0.50196078431373, 0.56470588235294},
+    snow = {1, 0.98039215686275, 0.98039215686275},
+    springgreen = {0, 1, 0.49803921568627},
+    steelblue = {0.27450980392157, 0.50980392156863, 0.70588235294118},
+    tan = {0.82352941176471, 0.70588235294118, 0.54901960784314},
+    teal = {0, 0.50196078431373, 0.50196078431373},
+    thistle = {0.84705882352941, 0.74901960784314, 0.84705882352941},
+    tomato = {1, 0.38823529411765, 0.27843137254902},
+    turquoise = {0.25098039215686, 0.87843137254902, 0.8156862745098},
+    violet = {0.93333333333333, 0.50980392156863, 0.93333333333333},
+    vLightBlue = {.8,1,1,1},
+    wheat = {0.96078431372549, 0.87058823529412, 0.70196078431373},
+    white = {1, 1, 1},
+    whitesmoke = {0.96078431372549, 0.96078431372549, 0.96078431372549},
+    yellow = {1, 1, 0},
+    yellowgreen = {0.60392156862745, 0.80392156862745, 0.19607843137255}
+}
 
-local currentTimeColour = blue
+local timeColour = {
+    India = colour.blue,
+    France = colour.red,
+    Colorado = colour.green,
+    Italy = colour.purple,
+    uk = colour.black,
+    NewYork = colour.yellow,
+    Queensland = colour.blueviolet,
+    Chile = colour.pink,
+    Fiji = colour.cyan,
+    Alaska = colour.turquoise,
+    Toronto = colour.lightgoldenrodyellow
+}
+
+local timeBoxY = windowHeight - 43
+local timeBoxWidth = 90
 
 local buttonRedFlag = '*'
 local buttonGreenFlag = '+'
@@ -676,6 +833,7 @@ end
 -- displays the weekly class pattern for student being edited
 -- called from drawWeek
 function showWeekDays()
+    -- print('showWeekDays')
     weekTbl = chosenStudent.wk
     local dayTbl = {'Mo','Tu','We','Th','Fr','Sa','Su'}
     local tmpDay = {}
@@ -690,8 +848,10 @@ function showWeekDays()
     -- draw 'Pattern' button
     c_lgp('Pattern',25,buttons.clearChosenStudent.y + 25)
     for i = 1, 7 do c_lgr('line',weekTblX + (i - 1) * 30,buttons.clearChosenStudent.y + 25,25,15) end
-    
-    for i = 1, 7 do
+
+    -- ! Changed for loop 7/5/14 to avoid nil entry in tmpDay to fix Priyanka Dutt crash - FIXED
+    for i = 1, #tmpDay do -- for i = 1, 7
+        -- print('in showWeekDays tmpDay:',i,' is ',tmpDay[i])
         if i <= #weekTbl then 
             button(weekTblX + (weekTbl[i] - 1) * 30,buttons.clearChosenStudent.y + 25,25,15,tmpDay[i])
         end
@@ -699,7 +859,9 @@ function showWeekDays()
 
     -- draw 'Package' button
     c_lgp('Package',packageX - 55,buttons.clearChosenStudent.y + 25)
+    -- print('in showWeekDays')
     showButton(buttons.editPackage,chosenStudent.package)
+    -- print('end showWeekDays')
 end
 
 -- adds event details into classNumbers
@@ -1935,7 +2097,7 @@ end
 
 -- writes the asanaData.lua file
 -- called from writeAllData
-function writeAllAsanas()
+function writeAllAsanasJSON()
     Asana.writeAsanaJSON()
 end
 
@@ -1995,7 +2157,7 @@ if CLOSE_DEBUG then print('Students ...') end
     if SAVE_AS_JSON then writeAllStudentsJSON() end
     if SAVE_AS_CSV then writeAllStudentsCSV() end --! still to do
 if CLOSE_DEBUG then print('Asanas ...') end
-    writeAllAsanas()
+    if SAVE_AS_JSON then writeAllAsanasJSON() end
 if CLOSE_DEBUG then print('Colours ...') end
     writeAllColours() --! Last JSON to write
 end
@@ -2703,6 +2865,7 @@ end
 -- then chosenStudent will be editable
 -- called from doClassMouseClicks
 function pickStudent(mx,my)
+    -- print('pickStudent')
     for i = 1, #student do
 --        if student[i].package > 0 then 
 --printIfDebug('student '..student[i].name)            
@@ -2749,7 +2912,7 @@ end
 -- draws the image passed in pic
 -- called from showMemory
 function drawMemory(pic,exact, count)
-    c_lgsc(white)
+    c_lgsc(colour.white)
 -- printIfDebug('image gfx/NA/'..pic.img)    
     local currentImage = c_lgni('gfx/NA/'..pic.img)
     local scale = math.min(300/currentImage:getWidth(),300/currentImage:getHeight())
@@ -2757,7 +2920,7 @@ function drawMemory(pic,exact, count)
     local currentImageW = currentImage:getWidth()*scale
     local currentImageH = currentImage:getHeight()*scale
     c_lgd(currentImage, currentImageX, 420, 0, scale, scale)
-    local heartImage = c_lgni('gfx/NA/heart small.png')
+    local heartImage = c_lgni('gfx/NA/heart small.jpg')
     c_lgd(heartImage, 160, 420 + currentImageH + 50)
 
     c_lgsc(textColour)
@@ -2824,10 +2987,11 @@ function love.update(dt)
         delay = 0
         scrollIndex = scrollIndex + 1
     end
-    currentMonth = now.month
-    currentDate = now.day
-    currentHour = now.hour
-    currentMinute = now.min
+    currentTime.year = now.year
+    currentTime.month = now.month
+    currentTime.date = now.day
+    currentTime.hour = now.hour
+    currentTime.minute = now.min
     Tween.update(dt)
     if state == asanas then 
         Asana.update(dt)
@@ -2990,7 +3154,11 @@ function drawDayGrid()
         if hour < 12 then
             c_lgp(hour .. ' AM', startX - 50, startY - 5 + (i - 1) * (classBoxHeight + classBoxPadY))
         elseif hour == 12 then
-            c_lgp(hour .. ' PM', startX - 50, startY - 5 + (i - 1) * (classBoxHeight + classBoxPadY))
+            c_lgp('Midday', startX - 50, startY - 5 + (i - 1) * (classBoxHeight + classBoxPadY))
+        elseif hour == 24 then -- Added this to fix 12PM when midnight - could also be hour - 12 .. ' AM'
+            c_lgp('Midnight', startX - 50, startY - 5 + (i - 1) * (classBoxHeight + classBoxPadY))
+        elseif hour > 24 then-- Added this to fix when times after 24
+            c_lgp(hour - 24 .. ' AM', startX - 50, startY - 5 + (i - 1) * (classBoxHeight + classBoxPadY))
         else
             c_lgp(hour - 12 .. ' PM', startX - 50, startY - 5 + (i - 1) * (classBoxHeight + classBoxPadY))
         end
@@ -3711,7 +3879,7 @@ function updateTotals(thisClass,day,num)
 end
 
 function displayImage(image, xPos, yPos, width, height)
-    c_lgsc(white)
+    c_lgsc(colour.white)
     local currentImage = image
     local scale = math.min(width/currentImage:getWidth(),height/currentImage:getHeight())
     local currentImageX = xPos + 20
@@ -3743,7 +3911,7 @@ function displayLargeClass(class)
         if stu.package > 0 then
             c_lgsc(C.getColour(2,stu.colour))
         else
-            c_lgsc(white)
+            c_lgsc(colour.white)
         end
         c_lgr('fill', 24, 370, 320, 110, rectCorner, rectCorner) -- draw class enlarged
         if stu.studentImageFileName then displayImage(stu.image,60, 380, 320, 85) end
@@ -3784,13 +3952,13 @@ function displayLargeClass(class)
         end
 
         if stu.birthday then
-            c_lgsc(blue)
+            c_lgsc(colour.blue)
             c_lgp('Birthday Info',230, 430)
             c_lgp(stu.birthday,230, 450)
         end
         
         if stu.phone ~= '' then
-            c_lgsc(blue)
+            c_lgsc(colour.blue)
             c_lgp('Phone ',30, 465)
             c_lgp(stu.phone,80, 465)
         end
@@ -3808,7 +3976,7 @@ function displayStudentNotes(class)
         if showingMemory() then return end -- don't display if showing memory
 
 
-        c_lgsc(white)
+        c_lgsc(colour.white)
         c_lgr('fill', 24, 490, 320, 110, rectCorner, rectCorner) -- draw class enlarged
         c_lgsc(textColour)
         c_lgpf(stu.sNote,30, 500, 300, left)
@@ -4069,7 +4237,7 @@ function drawClass(day, class)
 
     -- BUG -- class may extend beyond 2 or 3 hours, need to fix for that
 
-    if  not overAnyStudent and currentMonth == thisClass.month and currentDate == thisClass.date then
+    if  not overAnyStudent and currentTime.month == thisClass.month and currentTime.date == thisClass.date then
         -- calculate end time
 
         local endHour = thisClass.hour
@@ -4090,11 +4258,11 @@ function drawClass(day, class)
         end
     
         if passesHourMark then
-            if  (currentHour == startHour and currentMinute >= startMin) or 
-                (currentHour == endHour and currentMinute <= endMin) then
+            if  (currentTime.hour == startHour and currentTime.minute >= startMin) or 
+                (currentTime.hour == endHour and currentTime.minute <= endMin) then
                 displayLargeClass(thisClass)
             end
-        elseif currentHour == startHour and currentMinute >= startMin and currentMinute <= endMin then
+        elseif currentTime.hour == startHour and currentTime.minute >= startMin and currentTime.minute <= endMin then
             displayLargeClass(thisClass) 
         end
     end
@@ -4116,7 +4284,7 @@ function drawClass(day, class)
         c_lgsc(classNextSessionStartBorderColour)
         c_lgr('line', xPos+1, yPos+1, thisClass.width - 2, thisClassHeight - 2, rectCorner, rectCorner)
         if postponedClass(thisClass) then
-            c_lgsc(yellow)
+            c_lgsc(colour.yellow)
             c_lgl(xPos + thisClass.width/2 - 30, yPos + 4, xPos + thisClass.width/2 + 30, yPos + 4)
             c_lgl(xPos + thisClass.width/2 - 30, yPos + 8, xPos + thisClass.width/2 + 30, yPos + 8)
             c_lgsc(classNextSessionStartBorderColour)
@@ -4124,7 +4292,7 @@ function drawClass(day, class)
     -- if next session should start on this delayed start date because class was postponed
 --    elseif postponedClassStart(thisClass) then -- testing these two
     elseif postponedSessionAniversary(thisClass) then -- testing these two
-        c_lgsc(yellow)
+        c_lgsc(colour.yellow)
         c_lgr('line', xPos+1, yPos+1, thisClass.width - 2, thisClassHeight - 2, rectCorner, rectCorner)
     end
     -- draw the border
@@ -4160,9 +4328,9 @@ function drawClass(day, class)
 
     if getStudent(thisClass) then 
         if getStudent(thisClass).sType ~= 'yoga' then 
-            c_lgsc(white) 
+            c_lgsc(colour.white) 
             c_lgr('fill', xPos + 5, yPos + 2, thisClass.width - 20, 15)
-            c_lgsc(red) 
+            c_lgsc(colour.red) 
         end 
     end
     c_lgp(thisClass.name, namePosX, namePosY)
@@ -4188,7 +4356,7 @@ function drawClass(day, class)
     end
 
     -- draw delete symbol
-    c_lgsc(red)
+    c_lgsc(colour.red)
     c_lgp(' x', xPos + thisClass.width - 15, yPos)
     c_lgsc(textColour)
 
@@ -4212,11 +4380,11 @@ function drawClass(day, class)
                 not postponedSessionAniversary(thisClass) then -- ensure BLUE BOX SHOWS
                 -- new session should have started so g1ve it a red border
                 addHighlight(day..'-'..D.dayName(day)..' - '..thisClass.name..' Overdue Session')
-                c_lgsc(red)
+                c_lgsc(colour.red)
                 c_lgr('line', xPos+1, yPos+1, thisClass.width - 2, thisClassHeight - 2, rectCorner, rectCorner)
                 c_lgr('line', xPos, yPos, thisClass.width, thisClassHeight, rectCorner, rectCorner)
             end
-            c_lgsc(blue)
+            c_lgsc(colour.blue)
             c_lgpf(classNum ..'/'.. package, xPos, yPos + thisClassHeight - 15, thisClass.width - 5, 'right') 
             c_lgsc(textColour)
         end
@@ -4227,7 +4395,7 @@ function drawClass(day, class)
             if needClassNumber(thisClass,y,m,d,package) then
                 local classNum, package = getClassNumber(thisClass,y,m,d,package)
                 --c_lgp(classNum ..'/'.. package, xPos + 18, yPos + 1)
-                c_lgsc(blue)
+                c_lgsc(colour.blue)
                 c_lgpf(classNum ..'/'.. package, xPos, yPos + thisClassHeight - 15, thisClass.width - 5, 'right') 
                 c_lgsc(textColour)
             end
@@ -4236,9 +4404,9 @@ function drawClass(day, class)
 
     -- draw sNote blob
     if not(addingNewStudent) and findStudent(thisClass.name).sNote then
-        c_lgsc(black)
+        c_lgsc(colour.black)
         c_lgc('fill', xPos + thisClass.width - 20, yPos + 8, 6)
-        c_lgsc(white)
+        c_lgsc(colour.white)
         c_lgc('fill', xPos + thisClass.width - 20, yPos + 8, 4)
         -- reset colour
         c_lgsc(textColour)
@@ -4345,22 +4513,22 @@ function drawWeekHighlights()
             newDay = false
         end
         if weekOffset == 0 and weekHighlights[i]:find(D.dayName(thisDay)) then 
-            c_lgsc(red)
+            c_lgsc(colour.red)
         end
         if i == 1 or newDay then
             _,dayEnd = weekHighlights[i]:find('day -')
             c_lgp(weekHighlights[i]:sub(3,dayEnd),colourWindowxPos+5,highlightStartLine + 5 + (line * 15))
         end
-        if weekHighlights[i]:find('Postponed') then c_lgsc(blue) 
-        elseif weekHighlights[i]:find('Completed') then c_lgsc(green) 
-        elseif weekHighlights[i]:find('New') then c_lgsc(yellow) 
-        elseif weekHighlights[i]:find('Paid') then c_lgsc(lightBlue) 
-        elseif weekHighlights[i]:find('First') then c_lgsc(purple) 
-        elseif weekHighlights[i]:find('Over') then c_lgsc(red) 
+        if weekHighlights[i]:find('Postponed') then c_lgsc(colour.blue) 
+        elseif weekHighlights[i]:find('Completed') then c_lgsc(colour.green) 
+        elseif weekHighlights[i]:find('New') then c_lgsc(colour.yellow) 
+        elseif weekHighlights[i]:find('Paid') then c_lgsc(colour.lightBlue) 
+        elseif weekHighlights[i]:find('First') then c_lgsc(colour.purple) 
+        elseif weekHighlights[i]:find('Over') then c_lgsc(colour.red) 
         end
         c_lgc('fill',colourWindowxPos+85,highlightStartLine + 13 + (line * 15),5)
         if mouseOver(colourWindowxPos+92, highlightStartLine + 5 + (line * 15), colourWindowWidth - 92, 15) then
-            c_lgsc(red)
+            c_lgsc(colour.red)
         else
             c_lgsc(daySummaryTextColour)
         end
@@ -4434,6 +4602,7 @@ end
 -- draws a button at x,y,w,h with 'text' as its lable
 -- called from everywhere 
 function button(x,y,w,h,text,noBorder)
+    if text == nil then print('Text is nil') end
     -- top 4 menu buttons are inactive when changing colours
     local active = not changingColours or not (x < 160 and y < 180)
 
@@ -4455,17 +4624,18 @@ function button(x,y,w,h,text,noBorder)
     c_lgsc(buttonColour)
     c_lgr('fill',x,y,w,h)
     
+    -- if txt == nil then -- ! added to fix 'Priyanka Dutt Paid' click - FIND BUG - FIXED 7/5/24
     -- if first character of text = '*' set text colour to red and remove the '*'
     if txt:sub(1,1) == buttonRedFlag then
-        c_lgsc(red)
+        c_lgsc(colour.red)
         txt = txt:sub(2,#txt)
     -- if first character of text = '+' set text colour to blue and remove the '+'
     elseif txt:sub(1,1) == buttonGreenFlag then
-        c_lgsc(darkGreen)
+        c_lgsc(colour.darkGreen)
         txt = txt:sub(2,#txt)
     -- if first character of text = '=' set text colour to blue and remove the '+'
     elseif txt:sub(1,1) == buttonBlueFlag then
-        c_lgsc(blue)
+        c_lgsc(colour.blue)
         txt = txt:sub(2,#txt)
     else
         c_lgsc(buttonTextColour)
@@ -4473,7 +4643,7 @@ function button(x,y,w,h,text,noBorder)
 
     local textYPos = y
     if h > 19 then textYPos = y + math.floor(h / 4) - 1 end
-    c_lgpf(txt,x,textYPos,w,'center')
+    c_lgpf(txt,x,textYPos,w,'center') -- ! added to fix 'Priyanka Dutt Paid' click - FIND BUG - FIXED 7/5/24
     if state == statistics then c_lgsc(statisticsTextColour) else c_lgsc(textColour) end
 end
 
@@ -4583,7 +4753,7 @@ end
 -- displays the class details for the chosen student so user can edit it
 -- called from drawWeek
 function editStudent()
-
+    -- print('editStudent for ',chosenStudent.name)
     local c,p = 0,0
 
     local editLine = editStartLine
@@ -4603,6 +4773,8 @@ function editStudent()
     setStudentClassesInMonth(chosenStudent.name)
 
     showClassesThisSession(findStudent(chosenStudent.name))
+
+    -- print('about to loop through chosenStudentData')
 
     for i = 1, #chosenStudentData do
         local s = chosenStudentData[i]
@@ -4715,6 +4887,460 @@ function saveChangesToDayClass(thisClass)
     end
 end
 
+-- store DST rules for different regions. For each region, specify the start and end rules with the month, day rule, and hour.
+DST_RULES = {
+    ["EU"] = {
+        timeChange = 1,
+        startTime = {month = 3, day_rule = "last Sunday", hour = 1}, -- Last Sunday in March at 01:00
+        endTime = {month = 10, day_rule = "last Sunday", hour = 1} -- Last Sunday in October at 01:00
+    },
+    ["Chile"] = {
+        timeChange = 1,
+        startTime = {month = 9, day_rule = "first Saturday", hour = 24}, -- First Saturday in September at 24:00 ***
+        endTime = {month = 4, day_rule = "first Saturday", hour = 24}, -- First Saturday in April at 24:00 ***
+    },
+    ["Israel"] = {
+        timeChange = 1,
+        startTime = {month = 3, day_rule = "last Friday", hour = 2}, -- Friday before last Sunday in March at 02:00 **
+        endTime = {month = 10, day_rule = "last Sunday", hour = 2}, -- Last Sunday in October at 02:00
+    },
+    ["US"] = {
+        timeChange = 1,
+        startTime = {month = 3, day_rule = "second Sunday", hour = 2}, -- Second Sunday in March at 02:00
+        endTime = {month = 11, day_rule = "first Sunday", hour = 2}, -- First Sunday in November at 02:00
+    },
+    ["Cuba"] = {
+        timeChange = 1,
+        startTime = {month = 3, day_rule = "second Sunday", hour = 0}, -- Second Sunday in March at 00:00
+        endTime = {month = 11, day_rule = "first Sunday", hour = 1}, -- First Sunday in November at 01:00
+    },
+    ["Romania"] = {
+        timeChange = 1,
+        startTime = {month = 3, day_rule = "last Sunday", hour = 2}, -- Last Sunday in March at 02:00
+        endTime = {month = 10, day_rule = "last Sunday", hour = 3}, -- Last Sunday in October at 03:00
+    },
+    ["Lebanon"] = {
+        timeChange = 1,
+        startTime = {month = 3, day_rule = "last Sunday", hour = 0}, -- Last Sunday in March at 00:00
+        endTime = {month = 10, day_rule = "last Sunday", hour = 0}, -- Last Sunday in October at 00:00
+    },
+    ["Egypt"] = {
+        timeChange = 1,
+        startTime = {month = 4, day_rule = "last Friday", hour = 0}, -- Last Friday in April at 00:00
+        endTime = {month = 10, day_rule = "last Thursday", hour = 24}, -- Last Thursday in October at 24:00 ***
+    },
+    ["Australia"] = {
+        timeChange = 1,
+        startTime = {month = 10, day_rule = "first Sunday", hour = 2}, -- First Sunday in October at 02:00
+        endTime = {month = 4, day_rule = "first Sunday", hour = 3}, -- First Sunday in April at 03:00
+    },
+    ["Lord Howe Island"] = {
+        timeChange = 0.5,
+        startTime = {month = 10, day_rule = "first Sunday", hour = 2}, -- First Sunday in October at 02:00
+        endTime = {month = 4, day_rule = "first Sunday", hour = 2}, -- First Sunday in April at 02:00
+    },
+    ["New Zealand"] = {
+        timeChange = 1,
+        startTime = {month = 9, day_rule = "last Sunday", hour = 2}, -- Last Sunday in September at 02:00
+        endTime = {month = 4, day_rule = "first Sunday", hour = 2}, -- First Sunday in April at 02:00
+    }
+}
+
+REGION_TO_RULES = {}
+
+-- Helper function to assign multiple regions to a rule
+function assign_regions_to_rule(rule, regions)
+    for _, region in ipairs(regions) do
+        REGION_TO_RULES[region] = rule
+    end
+end
+
+-- Assign regions to rules
+assign_regions_to_rule("EU", {"Germany","France","Spain","Austria","Belgium","Bulgaria","Croatia","Cyprus","Czech Republic","Denmark","Estonia",
+"Finland","Greece","Hungary","Ireland","Italy","Latvia","Lithuania","Luxembourg","Malta","The Netherlands","Poland","Portugal",
+"Slovakia","Slovenia","Sweden","Akrotiri","Dhekelia","Albania","Andorra","Bosnia and Herzegovina","Faroe Islands","Gibraltar","Greenland",
+"Guernsey","Isle of Man","Jersey","Kosovo","Liechtenstein","Monaco","Montenegro","North Macedonia","Northern Cyprus","Norway","San Marino",
+"Serbia","Switzerland","Ukraine","United Kingdom","UK","Vatican City"})
+assign_regions_to_rule("US", {"USA","Canada","Bahamas","Bermuda","Pituffik Space Base","Haiti","Mexico - Baja California","Turks and Caicos Islands"})
+assign_regions_to_rule("Chile", {"Chile"})
+assign_regions_to_rule("Israel", {"Israel"})
+assign_regions_to_rule("Cuba", {"Cuba"})
+assign_regions_to_rule("Egypt", {"Egypt"})
+assign_regions_to_rule("Lebanon", {"Lebanon"})
+assign_regions_to_rule("Lord Howe Island", {"Lord Howe Island"})
+assign_regions_to_rule("New Zealand", {"New Zealand"})
+assign_regions_to_rule("Romania", {"Moldova","Transnistria"})
+assign_regions_to_rule("Australia", {"Australian Capital Territory","Jervis Bay Territory","New South Wales","Norfolk Island",
+"South Australia","Tasmania","Victoria"})
+
+-- function to calculate the day based on rules like "first Saturday" or "last Sunday".
+local function calculate_day(year, month, day_rule)
+    local debug = false
+    local weekdays = {Sunday = 1, Monday = 2, Tuesday = 3, Wednesday = 4, Thursday = 5, Friday = 6, Saturday = 7}
+
+    local first_day = os.time{year = year, month = month, day = 1}
+    local first_weekday = tonumber(os.date("%w", first_day)) + 1 -- Lua's weekdays start from Sunday (0-6)
+
+    local rule_parts = {}
+    for part in string.gmatch(day_rule, "%w+") do
+        table.insert(rule_parts, part)
+    end
+
+    local week_type = rule_parts[1] -- e.g., "first", "last", "second"
+    local target_weekday = weekdays[rule_parts[2]] -- e.g., Saturday -> 7
+
+    local week_map = {
+        first = 1,
+        second = 2,
+        third = 3,
+        fourth = 4,
+        last = 5
+    }
+    
+    if week_type == "last" then
+            -- Safely calculate the first day of the next month
+        local next_month = month + 1
+        local next_year = year
+
+        -- Handle December overflow to January
+        if next_month > 12 then
+            next_month = 1
+            next_year = year + 1
+        end
+
+        -- Debug: Print next_month and next_year
+        if debug then
+        print("Next month:", next_month, "Next year:", next_year)
+        end
+
+        -- Get the first day of the next month
+        local next_month_first = os.time{year = next_year, month = next_month, day = 1}
+
+        -- Calculate the last day of the current month by subtracting one day from the first day of the next month
+        local last_day = next_month_first - 86400
+
+        -- Debug: Print the calculated last_day
+        if debug then
+        print("Next month first day:", os.date("%Y-%m-%d", next_month_first))
+        print("Last day of the month:", os.date("%Y-%m-%d", last_day))
+        end
+
+        local last_weekday = tonumber(os.date("%w", last_day)) -- Sunday = 0
+
+        -- Debug: Print the weekday of the last day
+        if debug then
+        print("Weekday of last day:", last_weekday)
+        end
+
+        -- Target weekday (Sunday = 0)
+        local days_back = (last_weekday - target_weekday) % 7
+        if debug then
+        print('last_weekday '..last_weekday..' minus target_weekday '..target_weekday..' is '..last_weekday - target_weekday)
+        end
+        local target_day = os.date("*t", last_day - days_back * 86400).day
+
+        -- Debug: Print the final target day
+        if debug then
+        print("Days back:", days_back)
+        print("Target day (last Sunday):", target_day)
+        end
+
+        return target_day
+    
+    else
+        local week_number = week_map[week_type]
+        local days_forward = (target_weekday - first_weekday) % 7
+        return 1 + days_forward + (week_number - 1) * 7
+    end
+end
+
+-- function retrieves the DST start or end date for a given region and year.
+local function get_dst_date(region, year, dst_type)
+    local rule_key = REGION_TO_RULES[region]
+    if not rule_key then
+        return {
+            year = 0,
+            month = 0,
+            day = 0,
+            hour = 0
+        }
+    end
+
+    dst_type = dst_type or "startTime" -- Default to "start" if not specified
+    local rule = DST_RULES[rule_key] and DST_RULES[rule_key][dst_type]
+    
+    if not rule then
+        return {
+            year = 0,
+            month = 0,
+            day = 0,
+            hour = 0
+        }
+    end
+    
+    local month = rule.month
+    local day
+    if rule.day_rule then
+        day = calculate_day(year, month, rule.day_rule)
+    else
+        day = rule.day
+    end
+
+    -- Adjust year for "end" period if the month is less than the start month
+    if dst_type == "endTime" and rule.month < DST_RULES[rule_key]["startTime"].month then
+        year = year + 1
+    end
+
+    return {
+        year = year,
+        month = month,
+        day = day,
+        hour = rule.hour
+    }
+end
+
+-- Function to check if a given date/time is within the DST window
+function is_in_dst(region, year, month, day, hour)
+    -- Get the rule key for the region
+    local rule_key = REGION_TO_RULES[region]
+    if not rule_key then return false end
+
+    -- Get the DST rule for the region
+    local rule = DST_RULES[rule_key]
+    if not rule then return false end
+
+    -- Get the start and end of DST for the given year
+    local dst_start = get_dst_date(region, year, "startTime")
+    local dst_end = get_dst_date(region, year, "endTime")
+
+    -- Convert the start and end times to timestamps
+    local start_time = os.time{year = dst_start.year, month = dst_start.month, day = dst_start.day, hour = dst_start.hour}
+    local end_time = os.time{year = dst_end.year, month = dst_end.month, day = dst_end.day, hour = dst_end.hour}
+
+    -- Convert the given date/time to a timestamp
+    local input_time = os.time{year = year, month = month, day = day, hour = hour}
+
+    -- Check if the input time falls within the DST window
+    return input_time >= start_time and input_time < end_time
+end
+
+-- test_result = {
+--     [2024] = {
+--         ["France"] = {
+--             start_desc = "Last Sunday in March at 01:00",
+--             end_descr = "Last Sunday in October at 01:00",
+--             results = {start_yr = 2024, start_mth = 3, start_day = 31, start_hr = 1,end_yr = 2024, end_mth = 3, end_day = 31, end_hr = 1},
+--         }
+--     },
+--     [2025] = {
+--         ["France"] = {start_yr = 2024, start_mth = 3, start_day = 31, start_hr = 1,end_yr = 2024, end_mth = 3, end_day = 31, end_hr = 1},
+--     }
+-- }
+
+test_result = {
+    ["France"] = {
+        start_desc = "Last Sunday in March at 01:00",
+        end_desc = "Last Sunday in October at 01:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 3, start_day = 31, start_hr = 1, end_yr = 2024, end_mth = 10, end_day = 27, end_hr = 1},
+        [2025] = {start_yr = 2025, start_mth = 3, start_day = 30, start_hr = 1, end_yr = 2025, end_mth = 10, end_day = 26, end_hr = 1},
+    },
+    ["Chile"] = {
+        start_desc = "First Saturday in September at 24:00",
+        end_desc = "First Saturday in April at 24:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 9, start_day = 7, start_hr = 24, end_yr = 2025, end_mth = 4, end_day = 5, end_hr = 24},
+        [2025] = {start_yr = 2025, start_mth = 9, start_day = 6, start_hr = 1, end_yr = 2026, end_mth = 4, end_day = 4, end_hr = 24},
+    },
+    ["Israel"] = {
+        start_desc = "Friday before last Sunday in March at 02:00",
+        end_desc = "Last Sunday in October at 02:00",
+        start_test = 'last Friday in March at 02:00',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 3, start_day = 29, start_hr = 2, end_yr = 2024, end_mth = 10, end_day = 27, end_hr = 2},
+        [2025] = {start_yr = 2025, start_mth = 3, start_day = 28, start_hr = 2, end_yr = 2025, end_mth = 10, end_day = 26, end_hr = 2},
+    },
+    ["USA"] = {
+        start_desc = "Second Sunday in March at 02:00",
+        end_desc = "First Sunday in November at 02:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 3, start_day = 10, start_hr = 2, end_yr = 2024, end_mth = 11, end_day = 3, end_hr = 2},
+        [2025] = {start_yr = 2025, start_mth = 3, start_day = 9, start_hr = 2, end_yr = 2025, end_mth = 11, end_day = 2, end_hr = 2},
+    },
+    ["Cuba"] = {
+        start_desc = "Second Sunday in March at 00:00",
+        end_desc = "First Sunday in November at 01:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 3, start_day = 10, start_hr = 0, end_yr = 2024, end_mth = 11, end_day = 3, end_hr = 1},
+        [2025] = {start_yr = 2025, start_mth = 3, start_day = 9, start_hr = 0, end_yr = 2025, end_mth = 11, end_day = 2, end_hr = 1},
+    },
+    ["Moldova"] = {
+        start_desc = "Last Sunday in March at 02:00",
+        end_desc = "Last Sunday in October at 03:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 3, start_day = 31, start_hr = 2, end_yr = 2024, end_mth = 10, end_day = 27, end_hr = 3},
+        [2025] = {start_yr = 2025, start_mth = 3, start_day = 30, start_hr = 2, end_yr = 2025, end_mth = 10, end_day = 26, end_hr = 3},
+    },
+    ["Lebanon"] = {
+        start_desc = "Last Sunday in March at 00:00",
+        end_desc = "Last Sunday in October at 00:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 3, start_day = 31, start_hr = 0, end_yr = 2024, end_mth = 10, end_day = 27, end_hr = 0},
+        [2025] = {start_yr = 2025, start_mth = 3, start_day = 30, start_hr = 0, end_yr = 2025, end_mth = 10, end_day = 26, end_hr = 0},
+    },
+    ["Egypt"] = {
+        start_desc = "Last Friday in April at 00:00",
+        end_desc = "Last Thursday in October at 24:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 4, start_day = 26, start_hr = 0, end_yr = 2024, end_mth = 10, end_day = 31, end_hr = 24},
+        [2025] = {start_yr = 2025, start_mth = 4, start_day = 25, start_hr = 0, end_yr = 2025, end_mth = 10, end_day = 30, end_hr = 24},
+    },
+    ["Victoria"] = {
+        start_desc = "First Sunday in October at 02:00",
+        end_desc = "First Sunday in April at 03:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 10, start_day = 6, start_hr = 2, end_yr = 2025, end_mth = 4, end_day = 6, end_hr = 3},
+        [2025] = {start_yr = 2025, start_mth = 10, start_day = 5, start_hr = 2, end_yr = 2026, end_mth = 4, end_day = 5, end_hr = 3},
+    },
+    ["Lord Howe Island"] = {
+        start_desc = "First Sunday in October at 02:00",
+        end_desc = "First Sunday in April at 02:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 10, start_day = 6, start_hr = 2, end_yr = 2025, end_mth = 4, end_day = 6, end_hr = 2},
+        [2025] = {start_yr = 2025, start_mth = 10, start_day = 5, start_hr = 2, end_yr = 2026, end_mth = 4, end_day = 5, end_hr = 2},
+    },
+    ["New Zealand"] = {
+        start_desc = "Last Sunday in September at 02:00",
+        end_desc = "First Sunday in April at 02:00",
+        start_test = '',
+        end_test = '',
+        [2024] = {start_yr = 2024, start_mth = 9, start_day = 29, start_hr = 2, end_yr = 2025, end_mth = 4, end_day = 6, end_hr = 2},
+        [2025] = {start_yr = 2025, start_mth = 9, start_day = 28, start_hr = 2, end_yr = 2026, end_mth = 4, end_day = 5, end_hr = 2},
+    },
+}
+
+
+local function testCountry(country)
+    print('TESTING '..country)
+    print('')
+
+    -- Get current date and time
+    local now = os.date('*t')
+
+    -- check is country is currently in DST
+    local is_dst = is_in_dst(country, now.year, now.month, now.day, now.hour)
+    if is_dst then print(country..' is in DST') else print(country..' is NOT in DST') end
+
+    -- grab the start times
+    local DSTstart = get_dst_date(country, now.year, "startTime") 
+
+    -- print the start date explanation
+    print('')
+    local start_test = test_result[country].start_desc
+    print('START Rule is: '..start_test)
+    if test_result[country].start_test ~= '' then
+        start_test = test_result[country].start_test
+        print('But using Rule: '..start_test)
+    end
+
+    -- print the results and the expected results
+    print('')
+    print(country.." Program Results for DST start: Year = " .. DSTstart.year .. ", Month = " .. DSTstart.month .. ", Date = " .. DSTstart.day .. ", Hour = " .. DSTstart.hour)
+    print(start_test.." is:     Year = "..test_result[country][DSTstart.year].start_yr..", Month = "..test_result[country][DSTstart.year].start_mth..", Date = "..test_result[country][DSTstart.year].start_day..", Hour = "..test_result[country][DSTstart.year].start_hr)
+    print('')
+
+    -- print the errore is any
+    local start_yr_correct = DSTstart.year == test_result[country][DSTstart.year].start_yr
+    local start_mth_correct = DSTstart.month == test_result[country][DSTstart.year].start_mth
+    local start_day_correct = DSTstart.day == test_result[country][DSTstart.year].start_day
+    local start_hr_correct = DSTstart.hour == test_result[country][DSTstart.year].start_hr
+    local start_correct = start_yr_correct and start_mth_correct and start_day_correct and start_hr_correct
+
+    if start_correct then
+        print('All Start Time Results Correct!')
+    else
+        if not start_yr_correct then print('Start Year wrong!') end
+        if not start_mth_correct then print('Start Month wrong!') end
+        if not start_day_correct then print('Start Date wrong!') end
+        if not start_hr_correct then  print('Start hour wrong!') end
+    end
+
+    -- grab the end times
+    local DSTend = get_dst_date(country, now.year, "endTime") 
+
+    -- print the end date explanation
+    print('')
+    local end_test = test_result[country].end_desc
+    print('END Rule is: '..end_test)
+    if test_result[country].end_test ~= '' then
+        end_test = test_result[country].end_test
+        print('But using Rule: '..end_test)
+    end
+
+    -- print the results and the expected results
+    print('')
+    print(country.." Program Results for DST end: Year = " .. DSTend.year .. ", Month = " .. DSTend.month .. ", Date = " .. DSTend.day .. ", Hour = " .. DSTend.hour)
+    print(end_test.." is: Year = "..test_result[country][DSTend.year].end_yr..", Month = "..test_result[country][DSTend.year].end_mth..", Date = "..test_result[country][DSTend.year].end_day..", Hour = "..test_result[country][DSTend.year].end_hr)
+    print('')
+
+    -- print the errore is any
+    local end_yr_correct = DSTend.year == test_result[country][DSTend.year].end_yr
+    local end_mth_correct = DSTend.month == test_result[country][DSTend.year].end_mth
+    local end_day_correct = DSTend.day == test_result[country][DSTend.year].end_day
+    local end_hr_correct = DSTend.hour == test_result[country][DSTend.year].end_hr
+    local end_correct = end_yr_correct and end_mth_correct and end_day_correct and end_hr_correct
+
+    if end_correct then
+        print('All end Time Results Correct!')
+    else
+        if not end_yr_correct then print('End Year wrong!') end
+        if not end_mth_correct then print('End Month wrong!') end
+        if not end_day_correct then print('End Date wrong!') end
+        if not end_hr_correct then  print('End hour wrong!') end
+    end
+
+    print('')
+    if start_correct and end_correct then print(country..' FULLY PASSED ALL TESTS') end
+
+end
+
+
+
+local test_EU = false -- TODO Start Date wrong! should be 31st was 25th AND End Date wrong! should be 17th was 28th
+local test_Chile = false -- TODO End Year should be 2025 was 2024
+local test_Israel = false -- TODO Start Date wrong! should be 29th was 30th AND End Date wrong! should be 27th was 28th
+local test_USA = false -- !FULLY CORRECT
+local test_Cuba = false -- !FULLY CORRECT
+local test_Romania = false -- TODO Start Date wrong! should be 31st was 25th AND End Date wrong! should be 27th was 28th
+local test_Lebanon = false -- TODO Start Date wrong! should be 31st was 25th AND End Date wrong! should be 27th was 28th
+local test_Egypt = false -- TODO Start Date wrong! should be 26th was 27th AND End Date wrong! should be 31st was 25th
+local test_Australia = false -- TODO End Year should be 2025 was 2024
+local test_LordHoweIsland = false -- TODO End Year should be 2025 was 2024
+local test_NewZealand = false -- TODO Start Date wrong! should be 29th was 30th AND End Year should be 2025 was 2024
+
+if test_EU then testCountry("France") end
+if test_Chile then testCountry("Chile") end
+if test_Israel then testCountry("Israel") end
+if test_USA then testCountry("USA") end
+if test_Cuba then testCountry("Cuba") end
+if test_Romania then testCountry("Moldova") end
+if test_Lebanon then testCountry("Lebanon") end
+if test_Egypt then testCountry("Egypt") end
+if test_Australia then testCountry("Victoria") end
+if test_LordHoweIsland then testCountry("Lord Howe Island") end
+if test_NewZealand then testCountry("New Zealand") end
+
+
+
 -- draws all the classes in the active week
 -- called from love.draw
 function drawWeek()
@@ -4784,32 +5410,253 @@ function drawWeek()
                 if week[day][class].status > -1 then totalDayClasses = totalDayClasses + 1 end
             end
         end
+
         -- moved this to above
         -- local thisDay = D.currentDayOfWeek() - 1
         -- if thisDay == 0 then thisDay = 7 end
 
 
-        -- Highlight Today and draw current time line
-        if weekOffset == 0 and (day == thisDay) then
-            c_lgsc(todaySummaryBoxColour) 
-            c_lgr('fill', startX + (thisDay - 1) * (classBoxWidth + classBoxPadX), dayY, classBoxWidth + classBoxPadX - 1, classBoxHeight, rectCorner, rectCorner)
-            -- draw the date and the day totals on the day summary box 
-            c_lgsc(todaySummaryTextColour)
-            c_lgp(D.dayName(day) .. ' ' .. thisDate.day ..'/' .. thisDate.month, startX + (day - 1) * (classBoxWidth + classBoxPadX) + 15, dayY + 5)
-            c_lgp(dayClasses .. ' Classes of '..totalDayClasses, startX + (day - 1) * (classBoxWidth + classBoxPadX) + 15, dayY + 20)
-            -- draw current time line it time is between displayed time ranges
-            if currentHour >= startHour and currentHour < startHour + numEvents then
-                local timeBarX = startX + (thisDay - 1) * (classBoxWidth + classBoxPadX)
-                local minuteOffset = math.floor(classBoxHeight * (currentMinute / 60))
-                local timeBarY = startY + ((currentHour - startHour) * (classBoxHeight + classBoxPadY)) + minuteOffset
+
+
+        local timezones = {
+            [0] = {"Burkina Faso","Côte d'Ivoire","Faroe Islands","Danmarkshavn","Gambia","Ghana","Guinea",
+                    "Guinea-Bissau","Iceland","Ireland","Liberia","Mali","Mauritania","Portugal","Madeira","São Tomé and Príncipe",
+                    "Canary Islands","Senegal","Sierra Leone","Togo","Guernsey","Isle of Man","Jersey","Saint Helena","UK",
+                    "Ascension and Tristan da Cunha"},
+            [1] = {"Albania","Algeria","Andorra","Angola","Austria","Belgium","Benin","Bosnia and Herzegovina","Cameroon","Central African Republic",
+                    "Chad","Congo-Brazzaville","Democratic Republic of the Congo West","Kinshasa","Croatia","Czech Republic","Denmark","Equatorial Guinea",
+                    "France","Gabon","Germany","Hungary","Italy","Kosovo","Liechtenstein","Luxembourg","Malta","Monaco","Montenegro","Morocco",
+                    "The Netherlands","Niger","Nigeria","North Macedonia","Norway","Poland","San Marino","Serbia","Slovakia","Slovenia","Spain",
+                    "Balearic Islands","Ceuta","Melilla","Sweden","Switzerland","Tunisia","Gibraltar","Vatican City","Western Sahara"},
+            [2] = {"Botswana","Bulgaria","Burundi","Cyprus","Northern Cyprus","Democratic Republic of the Congo East","Lubumbashi","Mbuji-Mayi","Egypt",
+                    "Estonia","Eswatini","Finland","Greece","Israel","Latvia","Lebanon","Lesotho","Lithuania","Libya","Malawi","Moldova",
+                    "Transnistria","Mozambique","Namibia","Palestine","Romania","Russia Northwestern Federal District","Kaliningrad Oblast",
+                    "Rwanda","South Africa","South Sudan","Sudan","Syria","Idlib","Aleppo","Ukraine","Akrotiri","Dhekelia","Zambia","Zimbabwe"},
+            [3] = {"Bahrain","Belarus","Comoros","Djibouti","Eritrea","Ethiopia","Mayotte","Abkhazia","South Ossetia","Iraq","Jordan","Kenya",
+                    "Kuwait","Madagascar","Qatar","Russia – Moscow Time","Central Federal District","North Caucasian Federal District",
+                    "Northwestern Federal District","Southern Federal District","Volga Federal District","Saudi Arabia","Somalia",
+                    "Prince Edward Islands","Syria","Tanzania","Turkey","Uganda","Crimea","Donetsk","Luhansk","Yemen"},
+            [3.5] = {"Iran"},
+            [4] = {"Armenia","Azerbaijan","Crozet Islands","Réunion","Georgia","Mauritius","Oman","Russia - Samara Time",
+                    "Southern Federal District","Astrakhan Oblast","Volga Federal District","Samara Oblast","Saratov Oblast",
+                    "Udmurtia and Ulyanovsk Oblast","Seychelles","United Arab Emirates"},
+            [4.5] = {"Afghanistan"},
+            [5] = {"Heard Island","McDonald Islands","Île Amsterdam","Île Saint-Paul","Kerguelen Islands","Kazakhstan","Maldives",
+                    "Pakistan","Russia - Yekaterinburg Time","Ural Federal District","Volga Federal District","Bashkortostan","Orenburg Oblast",
+                    "Perm Krai","Tajikistan","Turkmenistan","Uzbekistan"},
+            [5.5] = {"India","Sri Lanka"},
+            [5.75] = {"Nepal"},
+            [6] = {"Bangladesh","Bhutan","Kyrgyzstan","Russia - Omsk Time","Siberian Federal District","Omsk Oblast","British Indian Ocean Territory"},
+            [6.5] = {"Myanmar","Cocos (Keeling) Islands"},
+            [7] = {"Christmas Island","Cambodia","Indonesia West","Central Kalimantan","West Kalimantan","Java","Sumatra","Laos","Mongolia West",
+                    "Russia - Krasnoyarsk Time","Siberian Federal District","Altai Krai","Altai Republic","Kemerovo Oblast","Khakassia",
+                    "Krasnoyarsk Krai","Novosibirsk Oblast","Tomsk Oblast","Tuva","Thailand","Vietnam"},
+            [8] = {"Western Australia","Brunei","China","Hong Kong","East Kalimantan","North Kalimantan","South Kalimantan","Sulawesi",
+                    "Lesser Sunda Islands","Macau","Malaysia","Mongolia East","Ulaanbaatar","Philippines","Russia – Irkutsk Time",
+                    "Far Eastern Federal District","Buryatia","Siberian Federal District","Irkutsk Oblast","Singapore","Taiwan"},
+            [8.75] = {"Eucla Western Australia", "Border Village South Australia"},
+            [9] = {"East Timor","Indonesia East","Maluku Islands","Papua","West Papua","Central Papua","Highland Papua","South Papua",
+                    "Southwest Papua","Japan","North Korea","Palau","Russia Far Eastern Federal District","Amur Oblast","Sakha Republic west",
+                    "Zabaykalsky Krai","South Korea"},
+            [9.5] = {"Broken Hill New South Wales","Northern Territory","South Australia"},
+            [10] = {"Australian Capital Territory","New South Wales","Queensland","Tasmania","Victoria","Micronesia west","Papua New Guinea",
+                    "Russia - Vladivostok Time","Far Eastern Federal District","Jewish Autonomous Oblast","Khabarovsk Krai","Primorsky Krai",
+                    "Sakha Republic central","Abyysky","Allaikhovsky","Momsky","Nizhnekolymsky","Srednekolymsky","Guam","Northern Mariana Islands"},
+            [10.5] = {"Lord Howe Island"},
+            [11] = {"Norfolk Island","Federated States of Micronesia east","New Caledonia","Autonomous Region of Bougainville",
+                    "Russia - Magadan Time","Far Eastern Federal District","Magadan Oblast","Sakhalin Oblast","Sakha Republic east",
+                    "Oymyakonsky","Ust-Yansky","Verkhoyansky","Solomon Islands","Vanuatu","Jervis Bay Territory"},
+            [12] = {"Wallis and Futuna","Fiji","Kiribati Gilbert Islands","Marshall Islands","Nauru","New Zealand","Russia - Kamchatka Time",
+                    "Far Eastern Federal District","Chukotka Autonomous Okrug","Kamchatka Krai","Tuvalu","Wake Island"},
+            [12.75] = {"Chatham Islands"},
+            [13] = {"Kiribati Phoenix Islands","Tokelau","Samoa","Tonga"},
+            [14] = {"Kiribati Line Islands"},
+            [-12] = {"Baker Island","Howland Island"},
+            [-11] = {"Niue New Zealand","American Samoa","Jarvis Island USA","Kingman Reef USA","Midway Atoll USA","Palmyra Atoll USA"},
+            [-10] = {"French Polynesia","Cook Islands New Zealand","Hawaii - Aleutian Time Zone","Aleutian Islands west Alaska","Hawaii","Johnston Atoll USA"},
+            [-9.5] = {"Marquesas Islands"},
+            [-9] = {"French Polynesia","Gambier Islands","Alaska"},
+            [-8] = {"British Columbia","Clipperton Island","Mexico - Baja California","Pitcairn Islands","California","Benewah Idaho",
+                    "Bonner Idaho","Boundary Idaho","Clearwater Idaho","Idaho","Kootenai Idaho","Latah Idaho","Lewi Idaho","Nez Perce Idaho",
+                    "Shoshone Idaho","Nevada","Oregon","Washington"},
+            [-7] = {"Alberta","British Columbia","Northern Rockies Regional Municipality","Peace River Regional District","Cranbrook",
+                    "Golden","Invermere","Northwest Territories of Canada","Nunavut","Kitikmeot Region","Saskatchewan","Lloydminster",
+                    "Yukon","Mexico","Baja California Sur","Chihuahua","Nayarit","Sinaloa","Sonora","Arizona","Colorado","Idaho",
+                    "Greeley Kansas","Hamilton Kansas","Sherman Kansas","Wallace Kansas","Montana","west Cherry Nebraska",
+                    "Arthur Nebraska","Banner Nebraska","Box Butte Nebraska","Cheyenne Nebraska","Dawes Nebraska","Deuel Nebraska",
+                    "Garden Nebraska","Grant Nebraska","Hooker Nebraska","Keith Nebraska","Kimball Nebraska","Morrill Nebraska",
+                    "Perkins Nebraska","Scotts Bluff Nebraska","Sheridan Nebraska","Sioux Nebraska","Chase Nebraska","Dundy Nebraska",
+                    "West Wendover Nevada","New Mexico","Adams North Dakota","Billings North Dakota","Bowman North Dakota",
+                    "south Dunn North Dakota","Golden Valley North Dakota","Grant North Dakota","Hettinger North Dakota",
+                    "south McKenzie North Dakota","west Sioux North Dakota","Slope North Dakota","Stark North Dakota",
+                    "Malheur County Oregon","Butte South Dakota","Corson South Dakota","Custer South Dakota","Dewey South Dakota",
+                    "Fall River South Dakota","Haakon South Dakota","Harding South Dakota","Lawrence South Dakota","Meade South Dakota",
+                    "Pennington South Dakota","Perkins South Dakota","Shannon South Dakota","west Stanley South Dakota",
+                    "Ziebach South Dakota","Jackson South Dakota","Bennett South Dakota","NW Culberson Texas","El Paso Texas",
+                    "Hudspeth Texas","Utah","Wyoming"},
+            [-6] = {"Belize","Manitoba","Nunavut","west Ontario","Saskatchewan","Easter Island Chile","Costa Rica","Galápagos Islands Ecuador",
+                    "El Salvador","Guatemala","Honduras","Mexico","Nicaragua","Alabama","Arkansas","Bay Florida","Calhoun Florida",
+                    "Escambia Florida","Holmes Florida","Jackson Florida","Okaloosa Florida","Santa Rosa Florida","Walton Florida",
+                    "Washington Florida","panhandle Florida","Illinois","Jasper","Lake Indiana","LaPorte Indiana","Newton Indiana",
+                    "Porter Indiana","Starke Indiana","Gibson Indiana","Perry Indiana","Posey Indiana","Spencer Indiana",
+                    "Vanderburgh Indiana","Warrick Indiana","Iowa","Kansas","Breckinridge Kentucky","Grayson Kentucky","Hart Kentucky",
+                    "Green Kentucky","Adair Kentucky","Russell Kentucky","Clinton Kentucky","Louisiana","Dickinson Michigan",
+                    "Gogebic Michigan","Iron Michigan","Menominee Michigan","Minnesota","Mississippi","Missouri","Nebraska",
+                    "North Dakota","Oklahoma","South Dakota","west Tennessee","Texas","Wisconsin"},
+            [-5] = {"Bahamas","Acre Brazil","west Amazonas Brazil","Nunavut Canada","Southampton Island Canada","Ontario Canada",
+                    "Quebec Canada","Colombia","Cuba","Ecuador","Haiti","Jamaica","Quintana Roo Mexico","Panama","Peru",
+                    "Cayman Islands","Turks and Caicos Islands","Delaware","District of Columbia","Florida","Georgia","Indiana",
+                    "east Kentucky","Maryland","Michigan","Connecticut","Massachusetts","Maine","New Hampshire","Rhode Island",
+                    "Vermont","New Jersey","New York","North Carolina","Ohio","Pennsylvania","South Carolina","east Tennessee",
+                    "Virginia","West Virginia","Navassa Island"},
+            [-4] = {"Antigua and Barbuda","Barbados","Bolivia","Amazonas Brazil","Mato Grosso Brazil","Mato Grosso do Sul Brazil",
+                    "Rondônia Brazil","Roraima Brazil","New Brunswick Canada","Newfoundland Canada","Labrador Canada",
+                    "Nova Scotia Canada","Prince Edward Island","east Quebec","Chile","Pituffik Space Base","Dominica",
+                    "Dominican Republic","Guadeloupe","Martinique","Saint Barthélemy","Saint Martin","Grenada","Guyana","Aruba",
+                    "Curaçao","Bonaire","Saba","Sint Eustatius","Sint Maarten","Paraguay","Saint Kitts and Nevis","Saint Lucia",
+                    "Saint Vincent and the Grenadines","Trinidad and Tobago","Anguilla","Bermuda","British Virgin Islands",
+                    "Montserrat","Puerto Rico","U.S. Virgin Islands","Venezuela"},
+            [-3.5] = {"L'Anse-au-ClairLabrador","east Newfoundland"},
+            [-3] = {"Argentina","east Brazil","Magallanes Chile","Antarctic Chile","French Guiana","Saint Pierre and Miquelon",
+                    "Suriname","Falkland Islands","Greenland","Uruguay"},
+            [-2] = {"Fernando de Noronha Brazil","South Georgia","South Sandwich Islands"},
+            [-1] = {"Cape Verde","Ittoqqortoormiit Tunu Greenland","Azores islands"}
+        }
+
+        local function getOffsetByRegion(region)
+            for offset, regions in pairs(timezones) do
+                for _, r in ipairs(regions) do
+                    if r == region then
+                        return offset
+                    end
+                end
+            end
+            return nil -- Return nil if region not found
+        end        
+
+        local function adjustTimeByHours(thisHour, thisMinute, offset)
+
+            local adjustedDay = 0
+            -- Convert current time to total minutes
+            local totalMinutes = thisHour * 60 + thisMinute
+            
+            -- Calculate offset in minutes
+            local offsetMinutes = offset * 60
+            
+            -- Adjust total minutes
+            local adjustedTotalMinutes = totalMinutes + offsetMinutes
+        
+            -- Handle wrap-around for 24-hour time (minutes in a day = 1440)
+            if adjustedTotalMinutes < 0 then
+                adjustedTotalMinutes = adjustedTotalMinutes + 1440
+                adjustedDay = -1
+            elseif adjustedTotalMinutes >= 1440 then
+                adjustedTotalMinutes = adjustedTotalMinutes - 1440
+                adjustedDay = 1
+            end
+        
+            -- Convert back to hours and minutes
+            local adjustedHour = math.floor(adjustedTotalMinutes / 60)
+            local adjustedMinute = adjustedTotalMinutes % 60
+        
+            return adjustedHour, adjustedMinute, adjustedDay
+        end
+        
+        local function printTimeBar(country, display_name,country_colour,pos)
+  
+            local countryYear = currentTime.year
+            local countryMonth = currentTime.month
+            local countryDate = currentTime.date
+            local countryHour = currentTime.hour
+            local countryMinute = currentTime.minute
+            local countryOffset = getOffsetByRegion(country)
+            local mouseHour = nil
+            local mouseMinute = nil
+
+            -- HERE USE MOUSE TIME IF mouse in class area
+            local mx,my = getScaledMousePos() 
+            if U.mouse_in_rect(mx, my, startX, startY, 7 * (classBoxWidth + classBoxPadX), numEvents * (classBoxHeight + classBoxPadY)) then
+                mouseHour = round2((my - startY)/(classBoxHeight+classBoxPadY) + startHour - 0.5,0)
+                mouseMinute = round2(60 * ((my - startY)/(classBoxHeight+classBoxPadY) + startHour - mouseHour),0)
+            end
+
+            -- Check for DST
+            local DST = is_in_dst(country, countryYear, countryMonth, countryDate, countryHour)
+            if DST then
+                countryOffset = countryOffset + DST_RULES[REGION_TO_RULES[country]]["timeChange"]
+                country = country..'*'
+            end
+
+            local offsetHours = 0
+            local offsetMinutes = 0
+            local adjustedDay = 0
+            local ignore_adjusted_day_for_mouse = 0
+            if countryOffset then
+                local offset = (countryOffset - getOffsetByRegion("India")) 
+                if offset ~= 0 then
+                    countryHour, countryMinute, adjustedDay = adjustTimeByHours(countryHour, countryMinute, offset)
+                    if mouseHour then
+                        mouseHour, mouseMinute, ignore_adjusted_day_for_mouse = adjustTimeByHours(mouseHour, mouseMinute, offset)
+                    end
+                    -- print(country, adjustedDay)
+                    -- if country == 'Chile' then
+                    --     print('Offset'..offset..' country '..country..' has time of: '..countryHour..' hours and '..countryMinute..' minutes and the day is adusted by '..adjustedDay)
+                    -- end
+                end
+            end
+            local showCountries = ((countryHour >= startHour) or (countryHour + 24) < (startHour + numEvents)) and 
+                                countryHour < startHour + numEvents
+            -- local showCountries = countryHour >= startHour and countryHour < startHour + numEvents
+            -- if country == "Colorado" or country == "India" then
+            --     print('startHour '..startHour..' num events '..numEvents)
+            --     print('countryHour '..countryHour)
+            --     if showCountries then print('showing') else print('now showing') end
+            -- end
+
+            if showCountries then
+                if not(chosenStudent) then drawTimeZone(display_name, country_colour,pos,mouseHour or countryHour,mouseMinute or countryMinute ) end
+                if countryHour == 0 then 
+                    countryHour = 24 
+                    adjustedDay = -1
+                end
+                local timeBarX = startX + (thisDay - 1 + adjustedDay) * (classBoxWidth + classBoxPadX)
+                local minuteOffset = math.floor(classBoxHeight * (countryMinute / 60))
+                local timeBarY = startY + ((countryHour - startHour) * (classBoxHeight + classBoxPadY)) + minuteOffset
+                -- if country == "Colorado" or country == "India" then
+                --     print('countryHour '..countryHour)
+                --     print('country '..country..' timeBarY '..timeBarY)
+                -- end
 
                 local saveWidth = c_lgglw()
 
                 c_lgslw(3)
-                c_lgsc(currentTimeColour)
+                c_lgsc(country_colour)
                 c_lgl(timeBarX, timeBarY, timeBarX + classBoxWidth + classBoxPadX, timeBarY)
                 c_lgslw(saveWidth)
+            else
+                if not(chosenStudent) then drawTimeZone(country, colour.grey,pos,mouseHour or countryHour,mouseMinute or countryMinute ) end
             end
+        end
+
+        -- Highlight Today and draw current time line
+
+
+        if weekOffset == 0 and (day == thisDay) then
+            c_lgsc(todaySummaryBoxColour) 
+            c_lgr('fill', startX + (thisDay - 1) * (classBoxWidth + classBoxPadX), dayY, classBoxWidth + classBoxPadX - 1, daySummaryBoxHeight, rectCorner, rectCorner)
+            -- draw the date and the day totals on the day summary box 
+            c_lgsc(todaySummaryTextColour)
+            c_lgp(D.dayName(day) .. ' ' .. thisDate.day ..'/' .. thisDate.month, startX + (day - 1) * (classBoxWidth + classBoxPadX) + 15, dayY + 5)
+            c_lgp(dayClasses .. ' Classes of '..totalDayClasses, startX + (day - 1) * (classBoxWidth + classBoxPadX) + 15, dayY + 20)
+            -- draw current time line if time is between displayed time ranges
+            printTimeBar('India','Hyderabad', timeColour.India,1)
+            printTimeBar('Colorado','Denver', timeColour.Colorado,2)
+            printTimeBar('Queensland','Brisbane', timeColour.Queensland,3)
+            printTimeBar('France','Paris', timeColour.France,4)
+            printTimeBar('UK','London', timeColour.uk,5)
+            printTimeBar('New York','New York', timeColour.NewYork,6)
+            printTimeBar('Ontario Canada','Toronto', timeColour.Toronto,7)
+            -- printTimeBar('Chile', colour.red,8)
         else
             -- draw day summary box
             c_lgsc(daySummaryBoxColour) 
@@ -5051,7 +5898,7 @@ function printRupees(num,x,y)
     c_lgp('Rs. ',x,y)
     local xPos = x + font:getWidth('Rs. ')
     if num > 9999999 then
-        c_lgsc(green)
+        c_lgsc(colour.green)
         c_lgp(crores,xPos,y)
         xPos = xPos + font:getWidth(crores)
         c_lgp(',',xPos,y)
@@ -5059,7 +5906,7 @@ function printRupees(num,x,y)
         xPos = xPos + font:getWidth(',')
     end
     if num > 99999 then
-        c_lgsc(yellow)
+        c_lgsc(colour.yellow)
         c_lgp(lachs,xPos,y)
         xPos = xPos + font:getWidth(lachs)
         c_lgp(',',xPos,y)
@@ -5067,14 +5914,14 @@ function printRupees(num,x,y)
         xPos = xPos + font:getWidth(',')
     end
     if num > 999 then
-        c_lgsc(white)
+        c_lgsc(colour.white)
         c_lgp(thousands,xPos,y)
         xPos = xPos + font:getWidth(thousands)
         c_lgp(',',xPos,y)
         c_lgsc(textColour)
         xPos = xPos + font:getWidth(',')
     end
-    c_lgsc(white)
+    c_lgsc(colour.white)
     c_lgp(rest,xPos,y)
     c_lgsc(textColour)
 
@@ -5386,10 +6233,10 @@ function drawAllTimeTotals()
         if newWeekTotals[i] == nil then newWeekTotals[i] = {0,0,0,0,0,0,0,0,0} end
         local ratio = newWeekTotals[i][8]/bestWeek
         local thisBar = ratio * maxBarSize
-        if ratio > 0.9 then c_lgsc(green) 
-        elseif ratio > 0.8 then c_lgsc(lightBlue) 
-        elseif ratio > 0.7 then c_lgsc(yellow) 
-        else c_lgsc(white) 
+        if ratio > 0.9 then c_lgsc(colour.green) 
+        elseif ratio > 0.8 then c_lgsc(colour.lightBlue) 
+        elseif ratio > 0.7 then c_lgsc(colour.yellow) 
+        else c_lgsc(colour.white) 
         end
         c_lgr('fill',370 + (barNumber - 1) * 5,400 - thisBar, 3, thisBar)
     end
@@ -5402,10 +6249,10 @@ function drawAllTimeTotals()
                 barNumber = barNumber + 1
                 local ratio = monthTotals[i][j]/bestMonth
                 local thisBar = ratio * maxBarSize
-                if ratio > 0.9 then c_lgsc(green) 
-                elseif ratio > 0.8 then c_lgsc(lightBlue) 
-                elseif ratio > 0.7 then c_lgsc(yellow) 
-                else c_lgsc(white) 
+                if ratio > 0.9 then c_lgsc(colour.green) 
+                elseif ratio > 0.8 then c_lgsc(colour.lightBlue) 
+                elseif ratio > 0.7 then c_lgsc(colour.yellow) 
+                else c_lgsc(colour.white) 
                 end
             c_lgr('fill',370 + (barNumber - 1) * 5,550 - thisBar, 3, thisBar)
             end
@@ -5491,16 +6338,16 @@ end
 -- called from love.draw
 function fixDarkText()
     if dark(classesWindowColour) then 
-        textColour = white 
+        textColour = colour.white 
         gridLineColour = lightGridLineColour
     else 
-        textColour = black 
+        textColour = colour.black 
         gridLineColour = darkGridLineColour
     end
-    if dark(daySummaryBoxColour) then daySummaryTextColour = white else daySummaryTextColour = black end
-    if dark(todaySummaryBoxColour) then todaySummaryTextColour = white else todaySummaryTextColour = black end
-    if dark(statisticsWindowColour) then statisticsTextColour = white else statisticsTextColour = black end
-    if dark(normalButtonColour) then buttonTextColour = white else buttonTextColour = black end
+    if dark(daySummaryBoxColour) then daySummaryTextColour = colour.white else daySummaryTextColour = colour.black end
+    if dark(todaySummaryBoxColour) then todaySummaryTextColour = colour.white else todaySummaryTextColour = colour.black end
+    if dark(statisticsWindowColour) then statisticsTextColour = colour.white else statisticsTextColour = colour.black end
+    if dark(normalButtonColour) then buttonTextColour = colour.white else buttonTextColour = colour.black end
 end
 
 local targetX = 550
@@ -5513,11 +6360,40 @@ function hb()
             Tween.create(bd_tbl, "x", targetX, 1, tweenType)
             Tween.create(bd_tbl, "y", targetY, 1, tweenType)
         end
-        c_lgsc(white)
+        c_lgsc(colour.white)
         c_lgd(bdImage,bd_tbl.x,bd_tbl.y,0,scale)
         c_lgsc(textColour)
     end
 end
+
+function drawTimeZone(country, country_colour,num,Hr,Mn)
+    local x = startX+((timeBoxWidth+10) * (num-1))
+    local am_pm = 'am'
+    local pad = ''
+    if Hr >= 12 then am_pm = 'pm' end
+    if Hr > 12 then Hr = Hr - 12 end
+    if Mn < 10 then pad = '0' end
+
+    c_lgsc(classesWindowColour)
+    c_lgr('fill',x,timeBoxY,timeBoxWidth,18)
+    c_lgsc(country_colour)
+    c_lgr('line',x,timeBoxY,timeBoxWidth,18)
+    c_lgpf(country,x,timeBoxY+2,timeBoxWidth,'center')
+    c_lgpf(Hr..':'..pad..Mn..am_pm,x,timeBoxY-16,timeBoxWidth,'center')
+    c_lgsc(textColour)
+end
+
+-- function drawTimeZones()
+--     if weekOffset == 0 and (day == thisDay) then
+--         drawTimeZone('India', timeColour.India, 1)
+--         drawTimeZone('Brisbane', timeColour.Queensland, 3)
+--         drawTimeZone('Denver', timeColour.Colorado, 2)
+--         drawTimeZone('France', timeColour.France, 5)
+--         drawTimeZone('England', timeColour.uk, 6)
+--         drawTimeZone('New York', timeColour.NewYork, 7)
+--         c_lgsc(textColour)
+--     end
+-- end
 
 -- draws the text on the bottom line of the screen
 -- called from love.draw
@@ -5550,7 +6426,7 @@ function drawBottomLine()
     c_lgc('line',buttons.saveCSV.x + 8,windowHeight - 11,8)
     if SAVE_AS_CSV then c_lgc('fill',buttons.saveCSV.x + 8,windowHeight - 11,4) end
 
-    c_lgsc(darkGreen) 
+    c_lgsc(colour.darkGreen) 
     c_lgp('Tween Type '..tweenNum..' [Press space to change]',900,windowHeight - 18) 
     c_lgsc(textColour) 
 end
@@ -5639,7 +6515,7 @@ function showMonthlyTakingsEstimate()
     
 --        end
         -- draw fees and total
-        c_lgsc(grey)
+        c_lgsc(colour.grey)
         c_lgr('fill', startX + 20, startY + 20, 800, 600)
         c_lgsc(textColour)
         c_lgp('Name', startX + 40, startY + 40)

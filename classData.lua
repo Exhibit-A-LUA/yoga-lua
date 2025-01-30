@@ -12744,7 +12744,7 @@ addClass{year=2024,month=3,date=6,hour=12,min=0,slot=1,length=60,num=98,name='Ba
 addClass{year=2024,month=3,date=6,hour=14,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
 addClass{year=2024,month=3,date=6,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
 addClass{year=2024,month=3,date=6,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
-addClass{year=2024,month=3,date=7,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=0,paid=0}
+addClass{year=2024,month=3,date=7,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=0,paid=18000,class=1,pkg=8}
 addClass{year=2024,month=3,date=7,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
 addClass{year=2024,month=3,date=7,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
 addClass{year=2024,month=3,date=7,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
@@ -12771,7 +12771,7 @@ addClass{year=2024,month=3,date=11,hour=8,min=0,slot=1,length=60,num=19,name='Dh
 addClass{year=2024,month=3,date=11,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
 addClass{year=2024,month=3,date=11,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
 addClass{year=2024,month=3,date=11,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=35595.07,class=1,pkg=8}
-addClass{year=2024,month=3,date=11,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=3,date=11,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=21000,class=1,pkg=12}
 addClass{year=2024,month=3,date=11,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
 addClass{year=2024,month=3,date=11,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
 addClass{year=2024,month=3,date=11,hour=17,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
@@ -12825,7 +12825,7 @@ addClass{year=2024,month=3,date=18,hour=6,min=0,slot=1,length=60,num=10,name='As
 addClass{year=2024,month=3,date=18,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
 addClass{year=2024,month=3,date=18,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
 addClass{year=2024,month=3,date=18,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=3,date=18,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=3,date=18,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=25000,class=1,pkg=20}
 addClass{year=2024,month=3,date=18,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
 addClass{year=2024,month=3,date=18,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
 addClass{year=2024,month=3,date=18,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=14541.66,class=1,pkg=8}
@@ -12843,7 +12843,7 @@ addClass{year=2024,month=3,date=19,hour=12,min=0,slot=1,length=60,num=19,name='D
 addClass{year=2024,month=3,date=19,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
 addClass{year=2024,month=3,date=19,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
 addClass{year=2024,month=3,date=19,hour=17,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
-addClass{year=2024,month=3,date=19,hour=18,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=3,date=19,hour=18,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=25000,class=1,pkg=20}
 addClass{year=2024,month=3,date=19,hour=18,min=0,slot=2,length=60,num=21,name='Giulia',status=1,paid=0}
 addClass{year=2024,month=3,date=20,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
 addClass{year=2024,month=3,date=20,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
@@ -12886,7 +12886,7 @@ addClass{year=2024,month=3,date=24,hour=13,min=30,slot=1,length=60,num=98,name='
 addClass{year=2024,month=3,date=25,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
 addClass{year=2024,month=3,date=25,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=25000,class=1,pkg=20}
 addClass{year=2024,month=3,date=25,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
-addClass{year=2024,month=3,date=25,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=3,date=25,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=23000,class=1,pkg=16}
 addClass{year=2024,month=3,date=25,hour=10,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=25000,class=1,pkg=20}
 addClass{year=2024,month=3,date=25,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
 addClass{year=2024,month=3,date=25,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
@@ -12904,7 +12904,7 @@ addClass{year=2024,month=3,date=26,hour=10,min=0,slot=2,length=60,num=25,name='H
 addClass{year=2024,month=3,date=26,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
 addClass{year=2024,month=3,date=26,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
 addClass{year=2024,month=3,date=26,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
-addClass{year=2024,month=3,date=26,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=3,date=26,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=25000,class=1,pkg=20}
 addClass{year=2024,month=3,date=26,hour=17,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
 addClass{year=2024,month=3,date=27,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
 addClass{year=2024,month=3,date=27,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
@@ -12950,116 +12950,2250 @@ addClass{year=2024,month=3,date=31,hour=12,min=0,slot=1,length=60,num=25,name='H
 addClass{year=2024,month=3,date=31,hour=13,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
 addClass{year=2024,month=3,date=31,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
 addClass{year=2024,month=3,date=31,hour=20,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=3,date=31,hour=21,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
 addClass{year=2024,month=4,date=1,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
-addClass{year=2024,month=4,date=1,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=4,date=1,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
 addClass{year=2024,month=4,date=1,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=1,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
-addClass{year=2024,month=4,date=1,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=1,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=1,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=3,paid=0}
 addClass{year=2024,month=4,date=1,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=1,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=1,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=46720.09,class=1,pkg=20}
 addClass{year=2024,month=4,date=1,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
-addClass{year=2024,month=4,date=1,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
-addClass{year=2024,month=4,date=1,hour=16,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=4,date=1,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=1,hour=16,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
 addClass{year=2024,month=4,date=1,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
-addClass{year=2024,month=4,date=1,hour=19,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=4,date=2,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
-addClass{year=2024,month=4,date=2,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=0,paid=0}
-addClass{year=2024,month=4,date=2,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=2,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
-addClass{year=2024,month=4,date=2,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=4,date=2,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
-addClass{year=2024,month=4,date=2,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=1,hour=19,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=1,hour=20,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=3,paid=0}
+addClass{year=2024,month=4,date=2,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=4,date=2,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=2,paid=0}
+addClass{year=2024,month=4,date=2,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=4,date=2,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=3,paid=0}
+addClass{year=2024,month=4,date=2,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=4,date=2,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
 addClass{year=2024,month=4,date=2,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
 addClass{year=2024,month=4,date=2,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
 addClass{year=2024,month=4,date=2,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
 addClass{year=2024,month=4,date=2,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
 addClass{year=2024,month=4,date=2,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
 addClass{year=2024,month=4,date=2,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=4,date=3,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
 addClass{year=2024,month=4,date=3,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
 addClass{year=2024,month=4,date=3,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=3,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
 addClass{year=2024,month=4,date=3,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=4,date=3,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=3,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=3,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=4,date=3,hour=11,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
 addClass{year=2024,month=4,date=3,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
 addClass{year=2024,month=4,date=3,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
-addClass{year=2024,month=4,date=3,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=4,date=3,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
-addClass{year=2024,month=4,date=3,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=4,date=3,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=4,date=3,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=3,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=46500,class=1,pkg=16}
 addClass{year=2024,month=4,date=4,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
 addClass{year=2024,month=4,date=4,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=0,paid=0}
-addClass{year=2024,month=4,date=4,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=4,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=4,date=4,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=4,hour=7,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=4,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=4,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
 addClass{year=2024,month=4,date=4,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
-addClass{year=2024,month=4,date=4,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
-addClass{year=2024,month=4,date=4,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
-addClass{year=2024,month=4,date=4,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
-addClass{year=2024,month=4,date=4,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=4,date=4,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=4,date=4,hour=13,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=4,date=4,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=4,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=4,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
 addClass{year=2024,month=4,date=4,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
-addClass{year=2024,month=4,date=5,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=5,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=4,date=5,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=4,hour=19,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=4,date=5,hour=7,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=4,date=5,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=5,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=4,date=5,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=35680.65,class=1,pkg=8}
+addClass{year=2024,month=4,date=5,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
 addClass{year=2024,month=4,date=5,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
-addClass{year=2024,month=4,date=5,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=4,date=5,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=4,date=5,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
 addClass{year=2024,month=4,date=5,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=4,date=5,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
-addClass{year=2024,month=4,date=5,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
-addClass{year=2024,month=4,date=6,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=4,date=5,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=5,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=4,date=6,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=6,hour=18,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=4,date=7,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=8,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=4,date=8,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
 addClass{year=2024,month=4,date=8,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
 addClass{year=2024,month=4,date=8,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=4,date=8,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=4,date=8,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=8,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=8,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=4,date=8,hour=13,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=4,date=8,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
 addClass{year=2024,month=4,date=8,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=4,date=8,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=4,date=8,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
 addClass{year=2024,month=4,date=8,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
 addClass{year=2024,month=4,date=9,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
-addClass{year=2024,month=4,date=9,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=0,paid=0}
+addClass{year=2024,month=4,date=9,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=1,paid=0}
 addClass{year=2024,month=4,date=9,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=9,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
-addClass{year=2024,month=4,date=9,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=4,date=9,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=9,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
-addClass{year=2024,month=4,date=9,hour=11,min=0,slot=2,length=60,num=95,name='Maimoona',status=0,paid=0}
-addClass{year=2024,month=4,date=9,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=4,date=9,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=9,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=4,date=9,hour=11,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=9,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=4,date=9,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
 addClass{year=2024,month=4,date=9,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=4,date=9,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=4,date=9,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
 addClass{year=2024,month=4,date=9,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
-addClass{year=2024,month=4,date=10,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
-addClass{year=2024,month=4,date=10,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=10,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=4,date=10,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=10,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
-addClass{year=2024,month=4,date=10,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
-addClass{year=2024,month=4,date=10,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=4,date=9,hour=19,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=4,date=10,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=4,date=10,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=18000,class=1,pkg=8}
+addClass{year=2024,month=4,date=10,hour=7,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=4,date=10,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=10,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=10,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=10,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=10,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=4,date=10,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
 addClass{year=2024,month=4,date=10,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=4,date=10,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
-addClass{year=2024,month=4,date=10,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
-addClass{year=2024,month=4,date=11,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
-addClass{year=2024,month=4,date=11,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=0,paid=0}
-addClass{year=2024,month=4,date=11,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=10,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=10,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=4,date=11,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=4,date=11,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=1,paid=0}
+addClass{year=2024,month=4,date=11,hour=7,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=4,date=11,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
 addClass{year=2024,month=4,date=11,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=4,date=11,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=11,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
-addClass{year=2024,month=4,date=11,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
-addClass{year=2024,month=4,date=11,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=4,date=11,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=4,date=11,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=11,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=11,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=4,date=11,hour=13,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=14532.94,class=1,pkg=8}
+addClass{year=2024,month=4,date=11,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
 addClass{year=2024,month=4,date=11,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=4,date=11,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=4,date=11,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
 addClass{year=2024,month=4,date=11,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
-addClass{year=2024,month=4,date=12,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=12,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
-addClass{year=2024,month=4,date=12,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
-addClass{year=2024,month=4,date=12,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
-addClass{year=2024,month=4,date=12,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
-addClass{year=2024,month=4,date=12,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
-addClass{year=2024,month=4,date=12,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
-addClass{year=2024,month=4,date=12,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
-addClass{year=2024,month=4,date=12,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=4,date=12,hour=11,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=12,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=4,date=12,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=12,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=12,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=13,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=14,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=15,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=4,date=15,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=15,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=15,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=4,date=15,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=15,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=4,date=15,hour=15,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=4,date=15,hour=15,min=0,slot=2,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=15,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=15,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=15,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=6,min=0,slot=1,length=60,num=41,name='Pooja',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=16,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=21000,class=1,pkg=12}
+addClass{year=2024,month=4,date=16,hour=11,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=14,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=15,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=15,min=0,slot=2,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=16,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=4,date=17,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=25000,class=1,pkg=12}
+addClass{year=2024,month=4,date=17,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=4,date=17,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=17,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=4,date=17,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=17,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=17,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=4,date=17,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=17,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=17,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=17,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=17,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=4,date=18,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=4,date=18,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=18,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=4,date=18,hour=11,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=18,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=4,date=18,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=4,date=18,hour=13,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=4,date=18,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=18,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=18,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=18,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=4,date=19,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=4,date=19,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=19,hour=8,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=4,date=19,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=4,date=19,hour=9,min=0,slot=2,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=4,date=19,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=4,date=19,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=19,hour=15,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=23000,wasClass1=true}
+addClass{year=2024,month=4,date=19,hour=15,min=0,slot=2,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=19,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=4,date=19,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=22,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=4,date=22,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=22,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=4,date=22,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=22,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=4,date=22,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=3,paid=0}
+addClass{year=2024,month=4,date=22,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=3,paid=0}
+addClass{year=2024,month=4,date=22,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=22,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=25000,wasClass1=true}
+addClass{year=2024,month=4,date=22,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=3,paid=0}
+addClass{year=2024,month=4,date=23,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=4,date=23,hour=7,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=4,date=23,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=23,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0,wasClass1=true}
+addClass{year=2024,month=4,date=23,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=23000,class=1,pkg=16}
+addClass{year=2024,month=4,date=23,hour=10,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0,wasClass1=true}
+addClass{year=2024,month=4,date=23,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=23,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=23,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=4,date=23,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=23,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=4,date=23,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=4,date=24,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=4,date=24,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=4,date=24,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=24,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0,wasClass1=true}
+addClass{year=2024,month=4,date=24,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=4,date=24,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=24,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=2,paid=0}
+addClass{year=2024,month=4,date=24,hour=13,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=4,date=24,hour=14,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=24,hour=15,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=4,date=24,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=24,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=25,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=4,date=25,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=4,date=25,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=25,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=25,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=25,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=4,date=25,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=4,date=25,hour=13,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=4,date=25,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=1,paid=0}
+addClass{year=2024,month=4,date=25,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=4,date=25,hour=17,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=4,date=25,hour=17,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0,wasClass1=true}
+addClass{year=2024,month=4,date=25,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=4,date=26,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=4,date=26,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=4,date=26,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=26,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=4,date=26,hour=9,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=4,date=26,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=4,date=26,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=26,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=26,hour=13,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=26,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=4,date=26,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0,wasClass1=true}
+addClass{year=2024,month=4,date=26,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=4,date=28,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=4,date=29,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=4,date=29,hour=6,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=4,date=29,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=4,date=29,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=4,date=29,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=29,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=4,date=29,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=4,date=29,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=25000,class=1}
+addClass{year=2024,month=4,date=29,hour=13,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=4,date=29,hour=15,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=29,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=4,date=29,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=4,date=30,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=4,date=30,hour=7,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=4,date=30,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=30,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0,wasClass1=true}
+addClass{year=2024,month=4,date=30,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=4,date=30,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=4,date=30,hour=11,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=4,date=30,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=4,date=30,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=4,date=30,hour=13,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=4,date=30,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=4,date=30,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=1,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=1,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=5,date=1,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=1,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=1,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=1,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=1,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=5,date=1,hour=13,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=5,date=1,hour=15,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=1,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=5,date=1,hour=17,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0,class=1}
+addClass{year=2024,month=5,date=1,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=2,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=2,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=18000,class=1,pkg=8}
+addClass{year=2024,month=5,date=2,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=2,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=5,date=2,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=2,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=2,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=2,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=5,date=2,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=2,hour=14,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=5,date=2,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=5,date=2,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=3,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=3,hour=6,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=3,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=3,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=3,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=35473.92,class=1,pkg=8}
+addClass{year=2024,month=5,date=3,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=48975.8,class=1,pkg=20}
+addClass{year=2024,month=5,date=3,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=5,date=3,hour=12,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=3,hour=13,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=5,date=3,hour=15,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=3,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=5,date=3,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=3,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=46500,class=1,pkg=16}
+addClass{year=2024,month=5,date=5,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=5,date=6,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=6,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=5,date=6,hour=6,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=6,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=6,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=6,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=5,date=6,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=6,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=6,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=6,hour=14,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=6,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=5,date=6,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=7,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=7,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=7,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=5,date=7,hour=8,min=0,slot=2,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=7,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=7,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=7,hour=11,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=5,date=7,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=5,date=7,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=5,date=7,hour=13,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=5,date=7,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=5,date=7,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=8,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=8,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=8,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=8,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=5,date=8,hour=9,min=0,slot=2,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=8,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=8,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=8,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=5,date=8,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=8,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=5,date=8,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=8,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=5,date=9,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=5,date=9,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=5,date=9,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=9,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=9,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=9,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=9,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=9,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=5,date=9,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=5,date=9,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=5,date=9,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=9,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=10,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=10,hour=6,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=10,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=10,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=10,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=10,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=5,date=10,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=10,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=10,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=10,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=5,date=10,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=10,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=5,date=11,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=12,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=5,date=12,hour=16,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=12,hour=17,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=5,date=13,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=5,date=13,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=5,date=13,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=13,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=5,date=13,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=5,date=13,hour=10,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=5,date=13,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=13,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=5,date=13,hour=12,min=30,slot=2,length=60,num=58,name='Sarah',status=0,paid=0}
+addClass{year=2024,month=5,date=13,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=5,date=13,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=14,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=14,hour=6,min=0,slot=2,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=14,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=14,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=14,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=5,date=14,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=5,date=14,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=21000,class=1,pkg=12}
+addClass{year=2024,month=5,date=14,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=5,date=14,hour=15,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=14,hour=15,min=0,slot=2,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=14,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=5,date=14,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=15,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=15,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=5,date=15,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=5,date=15,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=15,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=5,date=15,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=5,date=15,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=15,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=5,date=15,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=5,date=15,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=15,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=5,date=15,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=15,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=5,date=16,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=5,date=16,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=16,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=16,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=5,date=16,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=5,date=16,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=5,date=16,hour=14,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=16,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=16,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=5,date=16,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=16,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=5,date=17,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=5,date=17,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=17,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=17,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=17,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=17,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=17,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=17,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=5,date=17,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=20,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=20,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=20,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=20,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=20,hour=9,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=5,date=20,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=5,date=20,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=20,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=5,date=20,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=20,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=5,date=20,hour=17,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=5,date=20,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=21,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=5,date=21,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=21,hour=6,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=21,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=21,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=21,hour=9,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=5,date=21,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=5,date=21,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=21,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=5,date=21,hour=13,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=21,hour=14,min=30,slot=1,length=90,num=106,name='Shyla',status=0,paid=0}
+addClass{year=2024,month=5,date=21,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=5,date=21,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=22,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=22,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=22,hour=6,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=22,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=22,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=23000,class=1,pkg=16}
+addClass{year=2024,month=5,date=22,hour=9,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=5,date=22,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=5,date=22,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=5,date=22,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=22,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=5,date=22,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=5,date=22,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=22,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=5,date=22,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=5,date=23,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=6,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=5,date=23,hour=9,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=5,date=23,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=12,min=0,slot=1,length=60,num=106,name='Shyla',status=0,paid=0}
+addClass{year=2024,month=5,date=23,hour=12,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=5,date=23,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=5,date=24,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=5,date=24,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=2,paid=0}
+addClass{year=2024,month=5,date=24,hour=6,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=24,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=5,date=24,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=5,date=24,hour=9,min=0,slot=1,length=60,num=19,name='Dhruvi',status=2,paid=0}
+addClass{year=2024,month=5,date=24,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=5,date=24,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=5,date=24,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=5,date=24,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=5,date=27,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=5,date=27,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=27,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=5,date=27,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=2,paid=0}
+addClass{year=2024,month=5,date=27,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=5,date=27,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2024,month=5,date=27,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=5,date=27,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=5,date=27,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=5,date=28,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=5,date=28,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=28,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=5,date=28,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=2,paid=0}
+addClass{year=2024,month=5,date=28,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=5,date=28,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=5,date=28,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=2,paid=0}
+addClass{year=2024,month=5,date=28,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=5,date=28,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=5,date=29,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=5,date=29,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=29,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=5,date=29,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=2,paid=0}
+addClass{year=2024,month=5,date=29,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=5,date=29,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=5,date=29,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=2,paid=0}
+addClass{year=2024,month=5,date=29,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=5,date=29,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=5,date=30,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=5,date=30,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=30,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=5,date=30,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=2,paid=0}
+addClass{year=2024,month=5,date=30,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=5,date=30,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=5,date=30,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=2,paid=0}
+addClass{year=2024,month=5,date=30,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=5,date=30,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=5,date=31,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=5,date=31,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=5,date=31,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=5,date=31,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=2,paid=0}
+addClass{year=2024,month=5,date=31,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=5,date=31,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2024,month=5,date=31,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=5,date=31,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=5,date=31,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=6,date=3,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=6,date=3,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=3,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=6,date=3,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=35354.28,class=1,pkg=8}
+addClass{year=2024,month=6,date=3,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=3,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=3,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=6,date=4,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=6,date=4,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=6,date=4,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=4,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=6,date=4,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=6,date=4,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=6,date=4,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=4,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=4,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=5,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=6,date=5,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=2,paid=0}
+addClass{year=2024,month=6,date=5,hour=6,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=6,date=5,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=6,date=5,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=6,date=5,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=6,date=5,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=5,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=6,date=6,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=6,date=6,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=6,date=6,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=6,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=2,paid=0}
+addClass{year=2024,month=6,date=6,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=6,date=6,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=6,date=6,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=6,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=6,date=7,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=6,date=7,hour=6,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=6,date=7,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=7,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=2,paid=0}
+addClass{year=2024,month=6,date=7,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=6,date=7,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=6,date=7,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=7,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=7,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=8,hour=16,min=30,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=10,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=3,paid=0}
+addClass{year=2024,month=6,date=10,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=3,paid=0}
+addClass{year=2024,month=6,date=10,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=10,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=6,date=10,hour=9,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=10,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=6,date=10,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=10,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=10,hour=15,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=46500,class=1,pkg=16}
+addClass{year=2024,month=6,date=10,hour=16,min=30,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=6,date=11,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=6,date=11,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=6,date=11,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=11,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=11,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=6,date=11,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=11,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=6,date=11,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=49388.77,class=1,pkg=20}
+addClass{year=2024,month=6,date=11,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=11,hour=15,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=11,hour=16,min=30,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=6,date=12,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=6,date=12,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=6,date=12,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=12,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=12,hour=8,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=12,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=21000,class=1,pkg=8}
+addClass{year=2024,month=6,date=12,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=6,date=12,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=2,paid=0}
+addClass{year=2024,month=6,date=12,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=6,date=12,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=6,date=13,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=6,date=13,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=13,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=13,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=6,date=13,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=6,date=13,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=13,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=13,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=14619.95,class=1,pkg=8}
+addClass{year=2024,month=6,date=13,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=6,date=13,hour=15,min=30,slot=2,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=13,hour=16,min=30,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=14,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=6,date=14,hour=6,min=0,slot=2,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=6,date=14,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=14,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=14,hour=8,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=14,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=6,date=14,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=14,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=6,date=14,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=14,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=6,date=14,hour=15,min=30,slot=2,length=60,num=21,name='Giulia',status=3,paid=0}
+addClass{year=2024,month=6,date=14,hour=16,min=30,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=6,date=17,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=6,date=17,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=17,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=17,hour=8,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=17,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=17,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=6,date=17,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=17,hour=15,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=17,hour=16,min=30,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=18,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=6,date=18,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=6,date=18,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=18,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=6,date=18,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=18,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=6,date=18,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=6,date=18,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=18,hour=15,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=18,hour=16,min=30,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=19,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=6,date=19,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=19,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=19,hour=8,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=19,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=6,date=19,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=6,date=19,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=19,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=6,date=19,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=19,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=19,hour=17,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=20,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=6,date=20,hour=7,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=6,date=20,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=20,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=6,date=20,hour=8,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=20,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=6,date=20,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=20,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=20,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=6,date=20,hour=13,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=6,date=20,hour=17,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=21,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=6,date=21,hour=7,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=6,date=21,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=21,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=6,date=21,hour=8,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=6,date=21,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=6,date=21,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=6,date=21,hour=11,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=21,hour=17,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=6,date=22,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=24,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=6,date=24,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=6,date=24,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=24,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=23000,class=1,pkg=16}
+addClass{year=2024,month=6,date=24,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=6,date=24,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=6,date=24,hour=11,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=24,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=6,date=24,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=6,date=24,hour=12,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=24,hour=15,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=25,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=6,date=25,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=25,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=6,date=25,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=6,date=25,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=25,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=25,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=6,date=25,hour=12,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=25,hour=16,min=30,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=6,date=25,hour=17,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=6,date=26,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=6,date=26,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=6,date=26,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=26,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=26,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=6,date=26,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=6,date=26,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=6,date=26,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=6,date=26,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=6,date=26,hour=14,min=30,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=6,date=26,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=6,date=27,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=6,date=27,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=6,date=27,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=6,date=27,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=6,date=27,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=6,date=27,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=2,paid=0}
+addClass{year=2024,month=6,date=27,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=2,paid=0}
+addClass{year=2024,month=6,date=27,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=6,date=27,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=6,date=28,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=6,date=28,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=28,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=6,date=28,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=6,date=28,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=6,date=28,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=6,date=28,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=6,date=28,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=1,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=1,hour=7,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=7,date=1,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=1,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=1,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=7,date=1,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=1,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=1,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
+addClass{year=2024,month=7,date=1,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=7,date=1,hour=14,min=30,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=7,date=1,hour=15,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=2,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=2,hour=7,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=7,date=2,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=2,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=2,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=7,date=2,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=2,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=7,date=2,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=7,date=2,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=7,date=2,hour=15,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=3,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=3,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=3,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=3,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=3,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=3,hour=11,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=7,date=3,hour=11,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=7,date=3,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=7,date=3,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=7,date=3,hour=16,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=3,hour=16,min=0,slot=2,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=4,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=4,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=4,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=7,date=4,hour=8,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=4,hour=8,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=7,date=4,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=4,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=7,date=4,hour=11,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=4,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=2,paid=0}
+addClass{year=2024,month=7,date=4,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=7,date=4,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=7,date=5,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=5,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=5,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=5,hour=8,min=15,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=5,hour=9,min=15,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=5,hour=10,min=15,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=5,hour=14,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=5,hour=14,min=0,slot=2,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=5,hour=15,min=0,slot=1,length=60,num=58,name='Sarah',status=1,paid=0}
+addClass{year=2024,month=7,date=6,hour=12,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=6,hour=13,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=8,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=8,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=8,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=8,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=8,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=2,paid=0}
+addClass{year=2024,month=7,date=8,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=7,date=8,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=2,paid=0}
+addClass{year=2024,month=7,date=8,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=2,paid=0}
+addClass{year=2024,month=7,date=8,hour=15,min=30,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=7,date=8,hour=15,min=30,slot=2,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=9,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=9,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=9,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=9,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=9,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=21000,class=1,pkg=8}
+addClass{year=2024,month=7,date=9,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=9,hour=11,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=7,date=9,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=7,date=9,hour=15,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=9,hour=16,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=7,date=10,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=10,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=10,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=10,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=10,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=10,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=7,date=10,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=7,date=10,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=10,hour=13,min=30,slot=1,length=135,num=107,name='Ninon',status=0,paid=6500,class=1,pkg=16}
+addClass{year=2024,month=7,date=10,hour=17,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=10,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=11,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=11,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=11,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=11,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=11,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=11,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=11,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=21000,class=1,pkg=12}
+addClass{year=2024,month=7,date=11,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=7,date=11,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=11,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=46500}
+addClass{year=2024,month=7,date=12,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=12,hour=6,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=12,hour=6,min=0,slot=2,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=12,hour=8,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=12,hour=8,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=7,date=12,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=12,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=12,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=12,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=15,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=15,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=3,paid=0}
+addClass{year=2024,month=7,date=15,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=3,paid=0}
+addClass{year=2024,month=7,date=15,hour=8,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=15,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=15,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=15,hour=11,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=7,date=15,hour=12,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=7,date=15,hour=12,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=16,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=16,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=16,hour=8,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=7,date=16,hour=8,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=7,date=16,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=7,date=16,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=16,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=7,date=16,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=16,hour=16,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=16,hour=17,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=17,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=17,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=17,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=17,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=17,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=17,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=17,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=17,hour=13,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=7,date=17,hour=16,min=15,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=7,date=17,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=3,paid=0}
+addClass{year=2024,month=7,date=18,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=18,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=7,date=18,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=7,date=18,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=18,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=18,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=18,hour=11,min=0,slot=1,length=60,num=95,name='Maimoona',status=0,paid=0}
+addClass{year=2024,month=7,date=18,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=7,date=18,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=18,hour=16,min=15,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=19,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=7,date=19,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=19,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=19,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=19,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=19,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=19,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=7,date=19,hour=16,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=20,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=22,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=22,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=22,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=7,date=22,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=3,paid=0}
+addClass{year=2024,month=7,date=22,hour=10,min=0,slot=1,length=60,num=95,name='Maimoona',status=1,paid=0}
+addClass{year=2024,month=7,date=22,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=22,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=22,hour=15,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=23000,class=1,pkg=16}
+addClass{year=2024,month=7,date=22,hour=16,min=0,slot=1,length=60,num=21,name='Giulia',status=3,paid=0}
+addClass{year=2024,month=7,date=23,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=23,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=7,date=23,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=7,date=23,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=7,date=23,hour=11,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=7,date=23,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=7,date=23,hour=15,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=35932.1,class=1,pkg=8}
+addClass{year=2024,month=7,date=23,hour=16,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=24,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=24,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=7,date=24,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=7,date=24,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=2,paid=0}
+addClass{year=2024,month=7,date=24,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=7,date=24,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=7,date=24,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=24,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=25,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=25,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=25,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=2,paid=0}
+addClass{year=2024,month=7,date=25,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=2,paid=0}
+addClass{year=2024,month=7,date=25,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=25,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=25,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=7,date=25,hour=16,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=7,date=26,hour=6,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=26,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=7,date=26,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=26,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=26,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=47293.61,class=1,pkg=20}
+addClass{year=2024,month=7,date=26,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=7,date=26,hour=18,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=29,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=29,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=29,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=29,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=29,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=29,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=7,date=29,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=7,date=29,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=30,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=30,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=30,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=30,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=30,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
+addClass{year=2024,month=7,date=30,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=7,date=30,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=7,date=31,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=31,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=7,date=31,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=7,date=31,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=7,date=31,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=7,date=31,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=7,date=31,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=7,date=31,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=8,date=1,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=1,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=8,date=1,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=1,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=1,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=1,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=1,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=8,date=1,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=8,date=2,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=8,date=2,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=2,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=8,date=2,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=2,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=2,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=2,paid=0}
+addClass{year=2024,month=8,date=2,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=2,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=4,hour=13,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=5,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=8,date=5,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=5,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=8,date=5,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=5,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=8,date=5,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=5,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=5,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=5,hour=13,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=8,date=5,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=8,date=6,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=6,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=6,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=8,date=6,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=8,date=6,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=6,hour=11,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=6,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=8,date=6,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=6,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=7,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=7,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=7,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=8,date=7,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=21000,class=1,pkg=12}
+addClass{year=2024,month=8,date=7,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=7,hour=11,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=7,hour=11,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=8,date=7,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=3,paid=0}
+addClass{year=2024,month=8,date=7,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=8,date=8,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=8,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=8,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=8,date=8,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=8,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=8,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=8,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=8,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=8,date=8,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=9,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=9,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=9,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=8,date=9,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=9,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=8,date=9,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=9,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=9,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=8,date=9,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=12,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=12,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=12,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=8,date=12,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=12,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=8,date=12,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=12,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
+addClass{year=2024,month=8,date=12,hour=13,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=12,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=12,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=3,paid=46500,class=1,pkg=16}
+addClass{year=2024,month=8,date=13,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=13,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=13,hour=8,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=8,date=13,hour=9,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=13,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=8,date=13,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=13,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=8,date=13,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=14,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=8,date=14,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=14,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=8,date=14,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=14,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=14,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=14,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
+addClass{year=2024,month=8,date=14,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=14,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=8,date=15,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=8,date=15,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=15,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=8,date=15,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=8,date=15,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=8,date=15,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=15,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=8,date=15,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=3,paid=0}
+addClass{year=2024,month=8,date=15,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=3,paid=0}
+addClass{year=2024,month=8,date=16,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=8,date=16,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=8,date=16,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=16,hour=8,min=0,slot=2,length=60,num=33,name='Lakshmi',status=1,paid=0}
+addClass{year=2024,month=8,date=16,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=8,date=16,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=8,date=16,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=8,date=16,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=8,date=16,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=17,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=19,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=19,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=19,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=8,date=19,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=8,date=19,hour=9,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=8,date=19,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=8,date=19,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=51074.48,class=1,pkg=20}
+addClass{year=2024,month=8,date=19,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=44735.05,class=1,pkg=8}
+addClass{year=2024,month=8,date=19,hour=12,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=8,date=19,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=8,date=19,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=8,date=19,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=20,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=20,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=20,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=2,paid=0}
+addClass{year=2024,month=8,date=20,hour=9,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=8,date=20,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=20,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=20,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=8,date=20,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=20,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=21,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=21,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=21,hour=8,min=0,slot=1,length=60,num=33,name='Lakshmi',status=0,paid=0}
+addClass{year=2024,month=8,date=21,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=21,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=21,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=21,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
+addClass{year=2024,month=8,date=21,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=8,date=21,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=22,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=8,date=22,hour=7,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=22,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=22,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=22,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=22,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=8,date=22,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=8,date=22,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=22,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=8,date=23,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=8,date=23,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=23,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=8,date=23,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=23,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=23,hour=13,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=23,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=23,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=8,date=25,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=26,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=8,date=26,hour=7,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=26,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=26,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=26,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=26,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=8,date=26,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=26,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=8,date=26,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=27,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=8,date=27,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=27,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=27,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=27,hour=10,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=8,date=27,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=8,date=27,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=27,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=27,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=8,date=28,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=28,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=28,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=28,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=28,hour=10,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=8,date=28,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=28,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=28,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=28,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=29,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=29,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=29,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=8,date=29,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=8,date=29,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=29,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=29,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=8,date=29,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=30,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=8,date=30,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=8,date=30,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
+addClass{year=2024,month=8,date=30,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=8,date=30,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=36351.93,class=1,pkg=8}
+addClass{year=2024,month=8,date=30,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=8,date=30,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=8,date=30,hour=13,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=8,date=30,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=8,date=30,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=8,date=31,hour=16,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=9,date=2,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=2,hour=7,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=2,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=2,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=9,date=2,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=9,date=2,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=2,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=2,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=2,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=9,date=3,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=3,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=3,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=3,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=9,date=3,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=3,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=3,hour=13,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=3,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=3,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=4,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=4,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=4,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=4,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=4,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=4,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=4,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=5,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=5,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=5,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=5,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=21000,class=1,pkg=12}
+addClass{year=2024,month=9,date=5,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=5,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=5,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=5,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=5,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=6,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=6,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=6,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=9,date=6,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=6,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=9,date=6,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=6,hour=16,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=9,date=6,hour=16,min=0,slot=2,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=6,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=9,date=7,hour=11,min=30,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=7,hour=16,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=9,date=8,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=9,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=9,date=9,hour=7,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=9,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=9,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=9,date=9,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=2,paid=0}
+addClass{year=2024,month=9,date=9,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2024,month=9,date=9,hour=11,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=9,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=9,hour=17,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=9,date=9,hour=17,min=0,slot=2,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=10,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=9,date=10,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=10,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=10,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=9,date=10,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=10,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=10,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=10,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=10,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=11,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=11,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=11,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=9,date=11,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=9,date=11,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=1,paid=0}
+addClass{year=2024,month=9,date=11,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=11,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=11,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=44686.52,class=1,pkg=12}
+addClass{year=2024,month=9,date=11,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=11,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=12,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=9,date=12,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=12,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=9,date=12,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=9,date=12,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=12,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=12,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=9,date=12,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=13,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=9,date=13,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=13,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=9,date=13,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=13,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2024,month=9,date=13,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=9,date=13,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=14,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=9,date=14,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=3,paid=0}
+addClass{year=2024,month=9,date=16,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=9,date=16,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=3,paid=25000,class=1}
+addClass{year=2024,month=9,date=16,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=25000,wasClass1=true}
+addClass{year=2024,month=9,date=16,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=9,date=16,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=9,date=16,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=9,date=16,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=16,hour=13,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=16,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=16,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=3,paid=46500,class=1}
+addClass{year=2024,month=9,date=17,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=9,date=17,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=17,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0,class=1}
+addClass{year=2024,month=9,date=17,hour=9,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=17,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=17,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=9,date=17,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=18,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=18,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=18,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=18,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=9,date=18,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=18,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=18,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=18,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=9,date=19,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=9,date=19,hour=7,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=19,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=19,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=25000,class=1}
+addClass{year=2024,month=9,date=19,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=9,date=19,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=9,date=19,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=51327.14,class=1,pkg=20}
+addClass{year=2024,month=9,date=19,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=19,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=3,paid=25000,class=1}
+addClass{year=2024,month=9,date=19,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=9,date=20,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=20,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=20,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=20,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=9,date=20,hour=11,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=20,hour=12,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=9,date=20,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=9,date=20,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=9,date=21,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=21,hour=17,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=18000,class=1,pkg=16}
+addClass{year=2024,month=9,date=23,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=23,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=23,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=23,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=9,date=23,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=9,date=23,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=23,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=23,hour=13,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=23,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=23,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=24,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=24,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=24,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=24,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=9,date=24,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=24,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=24,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=9,date=24,hour=17,min=30,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=9,date=24,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=9,date=25,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=9,date=25,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=25,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=9,date=25,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=25,hour=16,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=25,hour=16,min=0,slot=2,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=25,hour=17,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=26,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=26,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=26,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=26,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=9,date=26,hour=10,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=26,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=26,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=26,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=26,hour=17,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=9,date=26,hour=18,min=30,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=9,date=27,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=9,date=27,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=9,date=27,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=9,date=27,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=27,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=9,date=27,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=27,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=27,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=27,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=9,date=28,hour=11,min=45,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=30,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=9,date=30,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=30,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=9,date=30,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=9,date=30,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=9,date=30,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=9,date=30,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=9,date=30,hour=13,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=15022.88,class=1,pkg=8}
+addClass{year=2024,month=9,date=30,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=9,date=30,hour=17,min=30,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=3,paid=0}
+addClass{year=2024,month=10,date=1,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=1,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=1,hour=8,min=0,slot=1,length=30,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=10,date=1,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=1,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=1,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=1,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=1,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=1,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=10,date=2,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=2,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=2,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=2,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=3,paid=0}
+addClass{year=2024,month=10,date=2,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=36463.12,class=1,pkg=8}
+addClass{year=2024,month=10,date=2,hour=11,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=2,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=2,hour=13,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=2,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=3,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=10,date=3,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=10,date=3,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=3,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=10,date=3,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=3,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=3,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=3,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=3,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=3,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=10,date=4,hour=5,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=4,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=4,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=4,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=4,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=10,date=4,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=10,date=4,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=4,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=4,hour=17,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=10,date=4,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=10,date=6,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=7,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=10,date=7,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=7,hour=7,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=7,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=7,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=7,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=7,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=10,date=7,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=7,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=7,hour=13,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=10,date=7,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=10,date=8,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=8,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=8,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=8,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=8,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=10,date=8,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=10,date=8,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=10,date=8,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=10,date=9,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=10,date=9,hour=7,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=9,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=9,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
+addClass{year=2024,month=10,date=9,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=10,date=9,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=10,date=9,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=9,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2024,month=10,date=9,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=10,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=10,date=10,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=10,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=10,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=3,paid=0}
+addClass{year=2024,month=10,date=10,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=21000,class=1,pkg=12}
+addClass{year=2024,month=10,date=10,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=10,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=10,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=10,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=10,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=10,date=11,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=2,paid=0}
+addClass{year=2024,month=10,date=11,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=11,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=10,date=11,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=10,date=11,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=2,paid=0}
+addClass{year=2024,month=10,date=11,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=10,date=11,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=10,date=14,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=14,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=14,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=14,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=14,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=10,date=14,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=14,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=43663.28,class=1,pkg=12}
+addClass{year=2024,month=10,date=14,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=10,date=14,hour=17,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=15,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=15,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=15,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=15,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=15,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=15,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=15,hour=13,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=10,date=15,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=10,date=16,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=16,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=3,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=10,date=16,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=16,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=16,hour=10,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=16,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=16,hour=12,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=10,date=16,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=16,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=46500,class=1,pkg=16}
+addClass{year=2024,month=10,date=17,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=17,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=17,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=10,date=17,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=17,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=10,date=17,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=17,hour=13,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=10,date=17,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=17,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=10,date=18,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=18,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=18,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=10,date=18,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=18,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=10,date=18,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=18,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=18,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=10,date=21,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=21,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=21,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=21,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=21,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=50130.62,class=1,pkg=20}
+addClass{year=2024,month=10,date=21,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=21,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=21,hour=17,min=30,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=10,date=22,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=22,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=22,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=22,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=22,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=3,paid=0}
+addClass{year=2024,month=10,date=22,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=22,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=22,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=10,date=23,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=23,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=23,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=23,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=23,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=10,date=23,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=23,hour=12,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=23,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=24,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=24,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=24,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=24,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=24,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=24,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=24,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=24,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=24,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=10,date=25,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=25,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=25,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=25,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=25,hour=10,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=10,date=25,hour=11,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=25,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=1,paid=0}
+addClass{year=2024,month=10,date=25,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=25,hour=17,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=10,date=28,hour=6,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=18000,class=1,pkg=16}
+addClass{year=2024,month=10,date=28,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=28,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=28,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=28,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=10,date=28,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=28,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=35869.97,class=1,pkg=8}
+addClass{year=2024,month=10,date=28,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=28,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=28,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=29,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=29,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=29,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=29,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=29,hour=11,min=0,slot=1,length=60,num=10,name='Ashwini',status=3,paid=0}
+addClass{year=2024,month=10,date=29,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=10,date=29,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=10,date=29,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=10,date=30,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=10,date=30,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=10,date=30,hour=8,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=10,date=30,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=10,date=30,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=30,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=30,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=10,date=30,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=3,paid=0}
+addClass{year=2024,month=10,date=31,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=10,date=31,hour=10,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=31,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=10,date=31,hour=11,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=10,date=31,hour=11,min=0,slot=2,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=10,date=31,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=10,date=31,hour=14,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=10,date=31,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=10,date=31,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=10,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=11,date=1,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=11,date=2,hour=13,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=3,hour=13,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=4,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=11,date=4,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=4,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=4,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=21000,class=1,pkg=12}
+addClass{year=2024,month=11,date=4,hour=10,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=3,paid=0}
+addClass{year=2024,month=11,date=4,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=4,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=11,date=4,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=4,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=5,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=5,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=5,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=5,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=11,date=5,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=5,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=11,date=5,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=5,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=11,date=6,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=11,date=6,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=6,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=6,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=6,hour=8,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=6,hour=10,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=6,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=6,hour=13,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=6,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=7,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=7,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=7,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=7,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=7,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=7,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=11,date=7,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=1,paid=0}
+addClass{year=2024,month=11,date=7,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=7,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=11,date=8,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=11,date=8,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=8,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=8,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=8,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=11,date=8,hour=12,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=8,hour=12,min=0,slot=2,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=11,date=8,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=8,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=11,date=11,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=11,date=11,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=11,date=11,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=11,date=11,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=11,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=11,date=11,hour=10,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=11,date=11,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=11,date=11,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=11,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=11,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=12,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=12,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=11,date=12,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=12,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=12,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=11,date=12,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=12,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=14372.9,class=1,pkg=8}
+addClass{year=2024,month=11,date=12,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=11,date=12,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=11,date=13,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=13,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=13,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=13,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=13,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=11,date=13,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=11,date=13,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=13,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=11,date=14,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=14,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=11,date=14,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=14,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=2,paid=0}
+addClass{year=2024,month=11,date=14,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=11,date=14,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=11,date=14,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=11,date=14,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=42306.88,class=1,pkg=12}
+addClass{year=2024,month=11,date=14,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=11,date=14,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=47500,class=1,pkg=16}
+addClass{year=2024,month=11,date=15,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=15,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=15,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=15,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=11,date=15,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=15,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=15,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=15,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=11,date=18,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=11,date=18,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=3,paid=0}
+addClass{year=2024,month=11,date=18,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=18,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=18,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=11,date=18,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=18,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=11,date=18,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=18,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=18,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=19,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=11,date=19,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=19,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=21000,class=1,pkg=16}
+addClass{year=2024,month=11,date=19,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=19,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=19,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=19,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=19,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=19,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=11,date=19,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=19,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=11,date=20,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=3,paid=0}
+addClass{year=2024,month=11,date=20,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=3,paid=0}
+addClass{year=2024,month=11,date=20,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=20,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=20,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=11,date=20,hour=9,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=20,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=20,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=21,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=21,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=3,paid=0}
+addClass{year=2024,month=11,date=21,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=21,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=21,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=11,date=21,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=21,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=11,date=21,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=48802.95,class=1,pkg=20}
+addClass{year=2024,month=11,date=21,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=21,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=11,date=22,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=11,date=22,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=22,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=22,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=22,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=22,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=22,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=22,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=11,date=25,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=11,date=25,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=3,paid=0}
+addClass{year=2024,month=11,date=25,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=25,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=25,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=11,date=25,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=25,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=34967.9,class=1,pkg=8}
+addClass{year=2024,month=11,date=25,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=25,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=25,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=11,date=25,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=26,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=26,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=26,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=11,date=26,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=26,hour=10,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=11,date=26,hour=10,min=0,slot=2,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=26,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=11,date=26,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=26,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=11,date=27,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=11,date=27,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=27,hour=8,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=11,date=27,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=27,hour=9,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=27,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=27,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=27,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=27,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=11,date=28,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=11,date=28,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=28,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=11,date=28,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=28,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=11,date=28,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=28,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=28,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=28,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=11,date=28,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=11,date=29,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=11,date=29,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=29,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=11,date=29,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=11,date=29,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=11,date=29,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=11,date=29,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=11,date=29,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=11,date=29,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=11,date=29,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=11,date=30,hour=13,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=2,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=2,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=12,date=2,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=21000,class=1,pkg=12}
+addClass{year=2024,month=12,date=2,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=2,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=2,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=12,date=2,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=12,date=2,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=2,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=12,date=2,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=12,date=2,hour=15,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=35293.76,class=1,pkg=8}
+addClass{year=2024,month=12,date=2,hour=16,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2024,month=12,date=2,hour=16,min=0,slot=2,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=3,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=12,date=3,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=3,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=12,date=3,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=3,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=12,date=3,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=12,date=3,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=3,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=3,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=3,paid=0}
+addClass{year=2024,month=12,date=4,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=12,date=4,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=4,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=4,hour=8,min=0,slot=2,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=12,date=4,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=12,date=4,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=4,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=4,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2024,month=12,date=4,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=5,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=12,date=5,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=5,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=12,date=5,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=5,hour=9,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=5,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=5,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=12,date=5,hour=15,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=5,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=12,date=5,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=3,paid=0}
+addClass{year=2024,month=12,date=6,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=6,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=6,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=12,date=6,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=6,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=6,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=12,date=6,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=6,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=1,paid=0}
+addClass{year=2024,month=12,date=6,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=12,date=6,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=12,date=7,hour=12,min=30,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=9,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=12,date=9,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=3,paid=0}
+addClass{year=2024,month=12,date=9,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=12,date=9,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=9,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=12,date=9,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=9,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=12,date=9,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=9,hour=17,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=9,hour=18,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=10,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=10,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=10,hour=8,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=10,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=10,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=10,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=10,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2024,month=12,date=10,hour=15,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=14330.24,class=1,pkg=8}
+addClass{year=2024,month=12,date=10,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=12,date=10,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=12,date=11,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=3,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=12,date=11,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=11,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=12,date=11,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=11,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2024,month=12,date=11,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=11,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=11,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2024,month=12,date=12,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=12,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=12,date=12,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=12,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=12,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=12,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=12,date=12,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=12,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=12,date=12,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2024,month=12,date=12,hour=15,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=12,date=12,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=12,hour=17,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=12,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=12,date=13,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=13,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=12,date=13,hour=8,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=13,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=13,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=13,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=42868.49,class=1,pkg=12}
+addClass{year=2024,month=12,date=13,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2024,month=12,date=13,hour=17,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2024,month=12,date=13,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=47500,class=1,pkg=16}
+addClass{year=2024,month=12,date=14,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=14,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=12,date=15,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=15,hour=13,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2024,month=12,date=16,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=16,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=16,hour=6,min=0,slot=1,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2024,month=12,date=16,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2024,month=12,date=16,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=16,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2024,month=12,date=16,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=16,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=16,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=12,date=17,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=17,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=17,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=12,date=17,hour=9,min=0,slot=1,length=60,num=109,name='Alessandra',status=1,paid=0}
+addClass{year=2024,month=12,date=17,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=17,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=17,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=17,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=17,hour=19,min=30,slot=1,length=60,num=10,name='Ashwini',status=0,paid=0}
+addClass{year=2024,month=12,date=17,hour=20,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=17,hour=22,min=30,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=12,date=18,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=18,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=18,hour=10,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=18,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=18,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=18,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=2,paid=0}
+addClass{year=2024,month=12,date=18,hour=19,min=30,slot=1,length=60,num=10,name='Ashwini',status=2,paid=0}
+addClass{year=2024,month=12,date=18,hour=20,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2024,month=12,date=19,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=19,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=19,hour=6,min=0,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2024,month=12,date=19,hour=6,min=0,slot=2,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2024,month=12,date=19,hour=7,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=19,hour=9,min=0,slot=1,length=60,num=109,name='Alessandra',status=1,paid=0}
+addClass{year=2024,month=12,date=19,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=19,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=19,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=19,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=19,hour=19,min=30,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=12,date=19,hour=22,min=30,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=12,date=19,hour=23,min=30,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=20,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=20,hour=5,min=0,slot=1,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2024,month=12,date=20,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=12,date=20,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2024,month=12,date=20,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=20,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=20,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=20,hour=23,min=30,slot=1,length=60,num=98,name='Barbara',status=0,paid=39985.79,class=1,pkg=20}
+addClass{year=2024,month=12,date=22,hour=8,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=22,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=22,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=22,hour=22,min=30,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=34865.93,class=1,pkg=8}
+addClass{year=2024,month=12,date=23,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=23,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=23,hour=6,min=0,slot=1,length=60,num=21,name='Giulia',status=3,paid=0}
+addClass{year=2024,month=12,date=23,hour=8,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=23,hour=9,min=0,slot=1,length=60,num=108,name='Charlotte',status=1,paid=0}
+addClass{year=2024,month=12,date=23,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2024,month=12,date=23,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=23,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=23,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=3,paid=0}
+addClass{year=2024,month=12,date=23,hour=20,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=23,hour=23,min=30,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=24,hour=4,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=24,hour=5,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=24,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=12,date=24,hour=9,min=0,slot=1,length=60,num=103,name='Ilaria',status=1,paid=0}
+addClass{year=2024,month=12,date=24,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=24,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=24,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=24,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=24,hour=23,min=30,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=25,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=25,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=25,hour=8,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=25,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=25,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=25,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=25,hour=19,min=30,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=12,date=25,hour=20,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=25,hour=23,min=30,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=26,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=26,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=26,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=12,date=26,hour=8,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=12,date=26,hour=10,min=0,slot=1,length=60,num=109,name='Alessandra',status=1,paid=0}
+addClass{year=2024,month=12,date=26,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=26,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=26,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=26,hour=19,min=30,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=12,date=26,hour=20,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2024,month=12,date=26,hour=22,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2024,month=12,date=26,hour=23,min=30,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2024,month=12,date=27,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=27,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2024,month=12,date=27,hour=8,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2024,month=12,date=27,hour=10,min=0,slot=1,length=60,num=109,name='Alessandra',status=1,paid=0}
+addClass{year=2024,month=12,date=27,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2024,month=12,date=27,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=27,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=27,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=27,hour=19,min=30,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=12,date=27,hour=20,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=27,hour=23,min=30,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=30,hour=4,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=12,date=30,hour=4,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=30,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=30,hour=9,min=0,slot=1,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2024,month=12,date=30,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2024,month=12,date=30,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=30,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=30,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=30,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=30,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2024,month=12,date=31,hour=4,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2024,month=12,date=31,hour=5,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2024,month=12,date=31,hour=5,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2024,month=12,date=31,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2024,month=12,date=31,hour=8,min=0,slot=1,length=60,num=103,name='Ilaria',status=2,paid=0}
+addClass{year=2024,month=12,date=31,hour=9,min=0,slot=1,length=60,num=109,name='Alessandra',status=2,paid=0}
+addClass{year=2024,month=12,date=31,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2024,month=12,date=31,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2024,month=12,date=31,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2024,month=12,date=31,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2024,month=12,date=31,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2025,month=1,date=1,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=1,hour=4,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=1,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=1,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=1,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=1,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=1,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=1,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=3,paid=0}
+addClass{year=2025,month=1,date=2,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=2,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=2,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2025,month=1,date=2,hour=8,min=0,slot=1,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2025,month=1,date=2,hour=9,min=0,slot=1,length=60,num=109,name='Alessandra',status=2,paid=0}
+addClass{year=2025,month=1,date=2,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=2,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=2,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=2,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=2,hour=21,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=25000,class=1,pkg=20}
+addClass{year=2025,month=1,date=3,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=3,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2025,month=1,date=3,hour=9,min=0,slot=1,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2025,month=1,date=3,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2025,month=1,date=3,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=3,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=3,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=3,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=3,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2025,month=1,date=6,hour=4,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=6,hour=4,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=6,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=6,hour=9,min=0,slot=1,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2025,month=1,date=6,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2025,month=1,date=6,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=6,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2025,month=1,date=6,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=6,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=6,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2025,month=1,date=7,hour=4,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=7,hour=5,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=7,hour=5,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=7,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2025,month=1,date=7,hour=8,min=0,slot=1,length=60,num=103,name='Ilaria',status=2,paid=0}
+addClass{year=2025,month=1,date=7,hour=9,min=0,slot=1,length=60,num=109,name='Alessandra',status=2,paid=0}
+addClass{year=2025,month=1,date=7,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=7,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2025,month=1,date=7,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=7,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=7,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2025,month=1,date=8,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=8,hour=4,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=8,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=8,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=8,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2025,month=1,date=8,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=8,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=8,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2025,month=1,date=9,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=9,hour=5,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=9,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2025,month=1,date=9,hour=8,min=0,slot=1,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2025,month=1,date=9,hour=9,min=0,slot=1,length=60,num=109,name='Alessandra',status=2,paid=0}
+addClass{year=2025,month=1,date=9,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=9,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2025,month=1,date=9,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=9,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=9,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2025,month=1,date=10,hour=4,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=10,hour=7,min=0,slot=1,length=60,num=21,name='Giulia',status=2,paid=0}
+addClass{year=2025,month=1,date=10,hour=9,min=0,slot=1,length=60,num=108,name='Charlotte',status=2,paid=0}
+addClass{year=2025,month=1,date=10,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=2,paid=0}
+addClass{year=2025,month=1,date=10,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=10,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=2,paid=0}
+addClass{year=2025,month=1,date=10,hour=17,min=30,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=10,hour=18,min=30,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=10,hour=19,min=30,slot=1,length=60,num=25,name='Harsha Rachit',status=2,paid=0}
+addClass{year=2025,month=1,date=13,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=13,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=13,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=13,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=13,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=13,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2025,month=1,date=13,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=13,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=13,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2025,month=1,date=13,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2025,month=1,date=13,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=1,date=14,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=14,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=14,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=14,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=14,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=14,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=14,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=1,date=14,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2025,month=1,date=14,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=14,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=1,date=15,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=15,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=3,paid=25000,class=1,pkg=20}
+addClass{year=2025,month=1,date=15,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=15,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=15,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=15,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=1,date=15,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=15,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=16,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=16,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=3,paid=0}
+addClass{year=2025,month=1,date=16,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=16,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=16,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=16,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2025,month=1,date=16,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=16,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=16,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=32000,class=1,pkg=8}
+addClass{year=2025,month=1,date=16,hour=15,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=1,date=16,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2025,month=1,date=16,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=17,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=17,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=17,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=17,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=17,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=17,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=35372.54,class=1,pkg=8}
+addClass{year=2025,month=1,date=17,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=17,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=17,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=1,date=18,hour=13,min=30,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=19,hour=13,min=30,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=20,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=3,paid=0}
+addClass{year=2025,month=1,date=20,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=20,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=20,hour=8,min=0,slot=2,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=20,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=20,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2025,month=1,date=20,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=20,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=42954.92,class=1,pkg=12}
+addClass{year=2025,month=1,date=20,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2025,month=1,date=20,hour=15,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=1,date=20,hour=17,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2025,month=1,date=20,hour=17,min=0,slot=2,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=20,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=1,date=21,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=1,date=21,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=21,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=21,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=21,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=21,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=21,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=1,date=21,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=21,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=21,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=1,date=22,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=1,date=22,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=22,hour=8,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=22,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=22,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=22,hour=13,min=0,slot=1,length=60,num=110,name='Sylvia',status=0,paid=0}
+addClass{year=2025,month=1,date=22,hour=14,min=0,slot=1,length=120,num=110,name='Sylvia',status=0,paid=0}
+addClass{year=2025,month=1,date=22,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=22,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=23,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=1,date=23,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=23,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=23,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=23,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=23,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=23,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=23,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2025,month=1,date=23,hour=15,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=1,date=23,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2025,month=1,date=23,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=23,hour=18,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=1,date=24,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=1,date=24,hour=9,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=24,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=24,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2025,month=1,date=24,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=24,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=24,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=1,paid=0}
+addClass{year=2025,month=1,date=24,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2025,month=1,date=24,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=24,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2025,month=1,date=27,hour=7,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=1,date=27,hour=7,min=0,slot=2,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=27,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=27,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=27,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=27,hour=11,min=0,slot=1,length=60,num=99,name='Nicoletta',status=0,paid=0}
+addClass{year=2025,month=1,date=27,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=27,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=27,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2025,month=1,date=27,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=27,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=27,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=1,date=28,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=28,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=28,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=28,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=28,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=28,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=1,paid=0}
+addClass{year=2025,month=1,date=28,hour=15,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=1,date=28,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=1,paid=0}
+addClass{year=2025,month=1,date=28,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=28,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=1,date=29,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=29,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=29,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=29,hour=11,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=29,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=29,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=29,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=30,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=1,paid=0}
+addClass{year=2025,month=1,date=30,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=30,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=1,date=30,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=1,paid=0}
+addClass{year=2025,month=1,date=30,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=1,paid=0}
+addClass{year=2025,month=1,date=30,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=30,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=30,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=1,date=30,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=30,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=30,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=1,paid=0}
+addClass{year=2025,month=1,date=31,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=1,date=31,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=31,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=1,date=31,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=1,date=31,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=1,date=31,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2025,month=1,date=31,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=1,date=31,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=1,paid=0}
+addClass{year=2025,month=1,date=31,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=2,date=3,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=2,date=3,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=3,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=2,date=3,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2025,month=2,date=3,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=3,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=2,date=3,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=2,date=3,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=2,date=3,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2025,month=2,date=3,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=2,date=4,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=15,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2025,month=2,date=4,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=2,date=5,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=2,date=5,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=5,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2025,month=2,date=5,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=5,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=2,date=5,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=2,date=5,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=8,min=0,slot=1,length=60,num=10,name='Ashwini',status=1,paid=0}
+addClass{year=2025,month=2,date=6,hour=9,min=0,slot=1,length=60,num=105,name='Priyanka Dutt Paid',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=14,min=0,slot=1,length=60,num=109,name='Alessandra',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2025,month=2,date=6,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
+addClass{year=2025,month=2,date=7,hour=6,min=0,slot=1,length=60,num=104,name='Sridhar',status=0,paid=0}
+addClass{year=2025,month=2,date=7,hour=7,min=0,slot=1,length=60,num=48,name='Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=7,hour=10,min=0,slot=1,length=60,num=25,name='Harsha Rachit',status=0,paid=0}
+addClass{year=2025,month=2,date=7,hour=12,min=0,slot=1,length=60,num=98,name='Barbara',status=0,paid=0}
+addClass{year=2025,month=2,date=7,hour=13,min=0,slot=1,length=60,num=108,name='Charlotte',status=0,paid=0}
+addClass{year=2025,month=2,date=7,hour=14,min=0,slot=1,length=60,num=103,name='Ilaria',status=0,paid=0}
+addClass{year=2025,month=2,date=7,hour=16,min=0,slot=1,length=60,num=31,name='Karuna',status=0,paid=0}
+addClass{year=2025,month=2,date=7,hour=17,min=0,slot=1,length=60,num=19,name='Dhruvi',status=0,paid=0}
+addClass{year=2025,month=2,date=7,hour=19,min=30,slot=1,length=60,num=21,name='Giulia',status=0,paid=0}
